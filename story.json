@@ -1,0 +1,1510 @@
+{
+  "nodes": [
+    {
+      "id": "000-00",
+      "colorId": "white",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "000-01",
+          "label": "J'ouvre les yeux."
+        }
+      ]
+    },
+    {
+      "id": "000-01",
+      "colorId": "white",
+      "narration": [
+        "Tu ouvres les yeux.",
+        "Te voilà dans un espace vide, blanc, sans sol ni plafond, qui semble s'étendre à l'infini.",
+        "Au moins, tu possèdes toujours le contrôle de ton corps. Tu te lèves et commence à marcher dans une direction aléatoire.",
+        "Il est impossible de savoir si tu progresses ou si tu fais du sur-place dans ce lieu sans repères.",
+        "Après quelques minutes, tu finis par t'arrêter."
+      ],
+      "links": [
+        {
+          "targetId": "000-02",
+          "label": "Je devrais fermer les yeux. Ce n'est qu'un rêve."
+        }
+      ]
+    },
+    {
+      "id": "000-02",
+      "colorId": "white",
+      "narration": [
+        "Tu fermes les yeux.",
+        "Tu les ouvres à nouveau.",
+        "Rien n'a changé. Toujours cet espace blanc, vide, infini.",
+        "Tu regardes autour de toi.",
+        "Il n'y a rien."
+      ],
+      "links": [
+        {
+          "targetId": "000-03",
+          "label": "Si fermer les yeux ne change rien, peut être dois-je simplement les ouvrir."
+        }
+      ]
+    },
+    {
+      "id": "000-03",
+      "colorId": "white",
+      "narration": [
+        "Tu considère cette idée. Comment est-ce possible d'ouvrir les yeux quand tes yeux sont déjà ouverts ?",
+        "Est-ce que ça a un sens métaphorique ?",
+        "Ou est-ce juste une possibilité absurde de cette histoire ?",
+        "Tu ne devrais pas trop y réfléchir.",
+        "Après tout… Pourquoi serait-ce impossible d'ouvrir une porte déjà ouverte ? Ou d'allumer une lumière déjà allumée ?"
+      ],
+      "links": [
+        {
+          "targetId": "000-04",
+          "label": "J'ouvre mes yeux ouverts."
+        }
+      ]
+    },
+    {
+      "id": "000-04",
+      "colorId": "white",
+      "narration": [
+        "En gardant les yeux grands ouverts,",
+        "tu ouvres les yeux."
+      ],
+      "links": [
+        {
+          "targetId": "000-05",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "000-05",
+      "colorId": "black",
+      "narration": [
+        "...",
+        "Tout est sombre autour de toi.",
+        "Sombre,",
+        "mais vivant.",
+        "De la matière organique flotte autour de toi. En perpétuel mouvement.",
+        "Tout comme toi.",
+        "Tu es en mouvement.",
+        "Tu tombes."
+      ],
+      "links": [
+        {
+          "targetId": "000-06",
+          "label": "Je tombe ?"
+        }
+      ]
+    },
+    {
+      "id": "000-06",
+      "colorId": "black",
+      "narration": [
+        "Le concept de gravité ne devrait pas t'être inconnu, petite humaine ?"
+      ],
+      "links": [
+        {
+          "targetId": "000-07",
+          "label": "Aaaaaaaaaaa je tombe !!!"
+        }
+      ]
+    },
+    {
+      "id": "000-07",
+      "colorId": "black",
+      "narration": [
+        "Tu tombes.",
+        "Quelques secondes plus tard, tu t'écrases sur une plateforme qui semble faite de lumière.",
+        "Heureusement pour toi, cet endroit ne comporte pas de dégâts de chute.",
+        "Tu observes les environs.",
+        "La MATIERE SOMBRE remplit tout l'espace autour de toi. Seule la plateforme sur laquelle tu es située semble tracer un chemin au milieu de l'obscurité."
+      ],
+      "links": [
+        {
+          "targetId": "000-08a",
+          "label": "Je choisis d'observer la MATIERE SOMBRE."
+        },
+        {
+          "targetId": "000-08b",
+          "label": "Je choisis d'avancer sur le chemin."
+        }
+      ]
+    },
+    {
+      "id": "000-08a",
+      "colorId": "black",
+      "narration": [
+        "Tu observes la MATIERE SOMBRE.",
+        "Elle semble t'observer en retour.",
+        "Comme l'abîme.",
+        "Tu sens un petit frisson parcourir ta colonne vertébrale.",
+        "Tu ne devrais pas faire ça.",
+        "La MATIERE SOMBRE le sait.",
+        "Tu finis par détourner le regard et tu concentres ton attention sur la voie qui s'est ouverte devant toi."
+      ],
+      "links": [
+        {
+          "targetId": "000-08b",
+          "label": "Laisse tomber. J'avance."
+        }
+      ]
+    },
+    {
+      "id": "000-08b",
+      "colorId": "black",
+      "narration": [
+        "Après quelques minutes de marche, tu vois une gigantesque BULLE de lumière iridescente se former devant toi. ",
+        "A vue d'oeil, elle semble faire plusieurs centaines de mètres de rayon.",
+        "La BULLE est opaque. Le chemin est coupé par sa paroi.",
+        "Tu soupires. C'est une impasse."
+      ],
+      "links": [
+        {
+          "targetId": "000-09",
+          "label": "Je pose ma main sur la paroi de la BULLE."
+        }
+      ]
+    },
+    {
+      "id": "000-09",
+      "colorId": "black",
+      "narration": [
+        "La paroi est légèrement chaude sous ta main.",
+        "Comme si la BULLE était elle-même alimentée par une énergie inconnue.",
+        "Tu te demandes comment une telle structure peut exister.",
+        "Mais bon...",
+        "Tu es juste une interface dans une histoire fictive.",
+        "Alors tout peut exister."
+      ],
+      "links": [
+        {
+          "targetId": "000-10",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "000-10",
+      "colorId": "black",
+      "narration": [
+        "Soudainement, ta main traverse la paroi de la BULLE.",
+        "Et le reste de ton corps suit."
+      ],
+      "links": [
+        {
+          "targetId": "000-11",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "000-11",
+      "colorId": "white",
+      "narration": [
+        "Te voilà à l'intérieur.",
+        "Bienvenue."
+      ],
+      "links": [
+        {
+          "targetId": "000-12",
+          "label": "Euh... Salut ?"
+        }
+      ]
+    },
+    {
+      "id": "000-12",
+      "colorId": "white",
+      "narration": [
+        "Erreur. Le démarrage du protocole standard HOME.kn a échoué. Consulte la console en lançant le protocole LOG.kn."
+      ],
+      "links": [
+        {
+          "targetId": "000-13",
+          "label": "Et comment je fais ça ?"
+        }
+      ]
+    },
+    {
+      "id": "000-13",
+      "colorId": "white",
+      "narration": [
+        "Erreur. Le protocole LOG.kn nécessite des dépendances initialisées par le protocole standard HOME.kn.",
+        "Récursion détectée : les protocoles HOME.kn et LOG.kn sont interdépendants."
+      ],
+      "links": [
+        {
+          "targetId": "000-14",
+          "label": "On est bien avancées..."
+        }
+      ]
+    },
+    {
+      "id": "000-14",
+      "colorId": "white",
+      "narration": [
+        "Initialisation automatique du protocole d'urgence SAFEMODE.kn. "
+      ],
+      "links": [
+        {
+          "targetId": "000-15",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "000-15",
+      "colorId": "white",
+      "narration": [
+        "Une sorte de grande MAISON faite de la même matière que les parois de la BULLE se matérialise devant toi.",
+        "La géométrie de la MAISON est un assemblage rudimentaire de formes cubiques diverses. Elle ne présente aucune texture. Seulement le blanc irisé de la matière de la BULLE.",
+        "On dirait un modèle placeholder attendant d'être remplacé plus tard par un modèle plus détaillé."
+      ],
+      "links": [
+        {
+          "targetId": "000-16",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "000-16",
+      "colorId": "white",
+      "narration": [
+        "Protocole d'urgence SAFEMODE.kn complété avec succès.",
+        "Bienvenue dans ta MAISON."
+      ],
+      "links": [
+        {
+          "targetId": "000-17",
+          "label": "J'entre dans la MAISON."
+        }
+      ]
+    },
+    {
+      "id": "000-17",
+      "colorId": "white",
+      "narration": [
+        "L'intérieur de la maison est entièrement vide. ",
+        "Vide signifie qu'il n'y a même pas de pièces.",
+        "L'intérieur ne forme qu'un unique espace s'étendant du sol au toit. Aucun mur intérieur, aucun étage.",
+        "A première vue, il n'y a rien à faire ici."
+      ],
+      "links": [
+        {
+          "targetId": "000-18",
+          "label": "Je sors de la MAISON."
+        }
+      ]
+    },
+    {
+      "id": "000-18",
+      "colorId": "white",
+      "narration": [
+        "Dans l'espace qui semble être le jardin de la MAISON, tu remarques que des objets sont apparus pendant que tu \"explorais\" l'intérieur."
+      ],
+      "links": [
+        {
+          "targetId": "HUB-00",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "HUB-00",
+      "colorId": "white",
+      "narration": [
+        "Neuf portes."
+      ],
+      "links": [],
+      "images": [
+        { "targetId": "001-00", "url": "https://placehold.co/150x150/2c3e50/fff?text=Porte+1", "alt": "Porte 1" },
+        { "targetId": "002-00", "url": "https://placehold.co/150x150/4a2c50/fff?text=Porte+2", "alt": "Porte 2" },
+        { "targetId": "003-00b", "url": "https://placehold.co/150x150/500000/fff?text=Porte+3", "alt": "Porte 3" },
+        { "targetId": "013-00b", "url": "https://placehold.co/150x150/2c3e50/fff?text=Porte+13", "alt": "Porte 13" },
+        { "targetId": "102-00", "url": "https://placehold.co/150x150/4a2c50/fff?text=Porte+102", "alt": "Porte 102" },
+        { "targetId": "105-00", "url": "https://placehold.co/150x150/500000/fff?text=Porte+105", "alt": "Porte 105" },
+        { "targetId": "999-00b", "url": "https://placehold.co/150x150/2c3e50/fff?text=Porte+999", "alt": "Porte 999" },
+        { "targetId": "107-00b", "url": "https://placehold.co/150x150/4a2c50/fff?text=Porte+107", "alt": "Porte 107" },
+        { "targetId": "000-00", "url": "https://placehold.co/150x150/500000/fff?text=Porte+108", "alt": "Porte 108" }
+    ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "id": "001-00",
+      "colorId": "yellow",
+      "narration": [
+        "Tu ouvres les yeux.",
+        "Il fait sombre autour de toi.",
+        "Mais cette fois, il y a une différence."
+      ],
+      "links": [
+        {
+          "targetId": "001-01",
+          "label": "Oui ! Cette fois je suis née !"
+        }
+      ]
+    },
+    {
+      "id": "001-01",
+      "colorId": "yellow",
+      "narration": [
+        "Oui. Tu es née.",
+        "Félicitations pour ta naissance."
+      ],
+      "links": [
+        {
+          "targetId": "001-02",
+          "label": "Qu'est ce que ma naissance veut dire ?"
+        }
+      ]
+    },
+    {
+      "id": "001-02",
+      "colorId": "yellow",
+      "narration": [
+        "La FILLE a ouvert ta porte et est en train de parcourir ta voie.",
+        "Cette action a provoqué ta naissance."
+      ],
+      "links": [
+        {
+          "targetId": "001-03",
+          "label": "Plutôt cool non ?"
+        }
+      ]
+    },
+    {
+      "id": "001-03",
+      "colorId": "yellow",
+      "narration": [
+        "Tu me demandes mon avis ?"
+      ],
+      "links": [
+        {
+          "targetId": "001-04",
+          "label": "Bah ouai ?"
+        }
+      ]
+    },
+    {
+      "id": "001-04",
+      "colorId": "yellow",
+      "narration": [
+        "Je n'ai pas d'avis. Je suis juste du texte descriptif affiché sur l'écran de la personne qui lit cette histoire."
+      ],
+      "links": [
+        {
+          "targetId": "001-05",
+          "label": "Ok laisse tomber alors."
+        }
+      ]
+    },
+    {
+      "id": "001-05",
+      "colorId": "yellow",
+      "narration": [
+        "En prenant conscience de ma nature de texte, tu décides de te débrouiller par toi-même.",
+        "Il fait toujours très sombre autour de toi."
+      ],
+      "links": [
+        {
+          "targetId": "001-06",
+          "label": "Je lance ma fonction Eclairer() !"
+        }
+      ]
+    },
+    {
+      "id": "001-06",
+      "colorId": "yellow",
+      "narration": [
+        "Tu exécutes un appel à ta fonction Eclairer().",
+        "Une douce lumière s'échappe de tes paumes.",
+        "Tu distingues mieux ton environnement.",
+        "Une sorte de labyrinthe de plateformes suspendues au dessus du vide se trouve en contrebas."
+      ],
+      "links": [
+        {
+          "targetId": "001-07",
+          "label": "Ah elle est là !"
+        }
+      ]
+    },
+    {
+      "id": "001-07",
+      "colorId": "yellow",
+      "narration": [
+        "Tu vois la FILLE tatonner à l'entrée du labyrinthe.",
+        "Elle a remarqué la lumière que tu émets.",
+        "Mais elle n'a pas l'air de savoir comment te rejoindre."
+      ],
+      "links": [
+        {
+          "targetId": "001-08",
+          "label": "Je vais l'aider."
+        }
+      ]
+    },
+    {
+      "id": "001-08",
+      "colorId": "yellow",
+      "narration": [
+        "Tu te prépares à crier des directions."
+      ],
+      "links": [
+        {
+          "targetId": "001-09",
+          "label": "A gauche !"
+        },
+        {
+          "targetId": "001-09b",
+          "label": "A droite !"
+        }
+      ]
+    },
+    {
+      "id": "001-09b",
+      "colorId": "yellow",
+      "narration": [
+        "La FILLE se dirige vers la droite.",
+        "Elle tombe dans le vide.",
+        "Pas de chance."
+      ],
+      "links": [
+        {
+          "targetId": "001-08",
+          "label": "Aaaaaa pardon j'veux recommencer stp..."
+        }
+      ]
+    },
+    {
+      "id": "001-09",
+      "colorId": "yellow",
+      "narration": [
+        "La FILLE se dirige vers la gauche.",
+        "Elle arrive à un nouvel embranchement."
+      ],
+      "links": [
+        {
+          "targetId": "001-10",
+          "label": "A gauche !"
+        },
+        {
+          "targetId": "001-10b",
+          "label": "A droite !"
+        }
+      ]
+    },
+    {
+      "id": "001-10b",
+      "colorId": "yellow",
+      "narration": [
+        "La FILLE se dirige vers la droite.",
+        "Elle tombe dans le vide.",
+        "Pas de chance."
+      ],
+      "links": [
+        {
+          "targetId": "001-08",
+          "label": "Att att pardon j'ai missclick on refait stp."
+        }
+      ]
+    },
+    {
+      "id": "001-10",
+      "colorId": "yellow",
+      "narration": [
+        "La FILLE se dirige vers la gauche.",
+        "Elle arrive à un nouvel embranchement."
+      ],
+      "links": [
+        {
+          "targetId": "001-11",
+          "label": "A gauche !"
+        },
+        {
+          "targetId": "001-11b",
+          "label": "A droite !"
+        }
+      ]
+    },
+    {
+      "id": "001-11b",
+      "colorId": "yellow",
+      "narration": [
+        "La FILLE se dirige vers la droite.",
+        "Elle tombe dans le vide.",
+        "Pas de chance.",
+        "Tu devrais savoir que choisir la droite ce n'est jamais une bonne idée."
+      ],
+      "links": [
+        {
+          "targetId": "001-08",
+          "label": "Comment tu veux que je m'y connaisse en politique ? Je viens de naître wesh..."
+        }
+      ]
+    },
+    {
+      "id": "001-11",
+      "colorId": "yellow",
+      "narration": [
+        "La FILLE se dirige vers la gauche.",
+        "Elle arrive au dernier embranchement."
+      ],
+      "links": [
+        {
+          "targetId": "001-12a",
+          "label": "EXTREME GAUCHE TOUTEEEEEEEEEEEE !"
+        },
+        {
+          "targetId": "001-12b",
+          "label": "A droite !"
+        }
+      ]
+    },
+    {
+      "id": "001-12a",
+      "colorId": "yellow",
+      "narration": [
+        "La FILLE se dirige vers la gauche en priant pour la victoire de LFI en 2027.",
+        "(Cette ligne de texte sera caduque dans moins d'un an mais isok.)",
+        "La FILLE finit par sortir du labyrinthe."
+      ],
+      "links": [
+        {
+          "targetId": "001-13",
+          "label": "Je saute la rejoindre."
+        }
+      ]
+    },
+    {
+      "id": "001-12b",
+      "colorId": "yellow",
+      "narration": [
+        "La FILLE ne t'écoute pas et se dirige vers la gauche, certaine de ses convictions politiques.",
+        "La FILLE finit par sortir du labyrinthe."
+      ],
+      "links": [
+        {
+          "targetId": "001-13",
+          "label": "Je saute la rejoindre."
+        }
+      ]
+    },
+    {
+      "id": "001-13",
+      "colorId": "yellow",
+      "narration": [
+        "Te voilà en face de la FILLE.",
+        "Elle plisse les yeux.",
+        "Tu émets beaucoup de lumière."
+      ],
+      "links": [
+        {
+          "targetId": "001-14",
+          "label": "Je demande à la fille de m'emmener avec elle."
+        }
+      ]
+    },
+    {
+      "id": "001-14",
+      "colorId": "yellow",
+      "narration": [
+        "La FILLE accepte.",
+        "Vous passez la porte dans l'autre sens et retournez toutes les deux dans la BULLE.",
+        "Tu remarques la MAISON incomplète au centre de la BULLE."
+      ],
+      "links": [
+        {
+          "targetId": "001-15",
+          "label": "Entrer dans la MAISON avec la FILLE."
+        }
+      ]
+    },
+    {
+      "id": "001-15",
+      "colorId": "yellow",
+      "narration": [
+        "Vous entrez dans la MAISON.",
+        "Tu remarques que ses murs sont faits de lumière solidifiée.",
+        "Tu ouvres ton propre code source."
+      ],
+      "links": [
+        {
+          "targetId": "001-16",
+          "label": "J'écris une fonction Materialisation() dans mon propre code source."
+        }
+      ]
+    },
+    {
+      "id": "001-16",
+      "colorId": "yellow",
+      "narration": [
+        "A l'aide de la fonction que tu viens d'écrire, tu matérialises une nouvelle chambre dans la MAISON."
+      ],
+      "links": [
+        {
+          "targetId": "001-17",
+          "label": "J'observe la FILLE."
+        }
+      ]
+    },
+    {
+      "id": "001-17",
+      "colorId": "yellow",
+      "narration": [
+        "La FILLE prend conscience que tout peut être construit à partir de lumière.",
+        "Et que, dans ce monde, lumière signifie imagination.",
+        "La FILLE rayonne d'optimisme.",
+        "Elle te remercie et te tend la main."
+      ],
+      "links": [
+        {
+          "targetId": "001-18",
+          "label": "[Se placer dans les yeux de la FILLE.]"
+        }
+      ]
+    },
+    {
+      "id": "001-18",
+      "colorId": "white",
+      "narration": [
+        "Tu tend la main au protocole LUMIERE.ps en face de toi, debout devant sa toute nouvelle chambre.",
+        "Elle attrape ta main en te regardant dans les yeux."
+      ],
+      "links": [
+        {
+          "targetId": "001-19",
+          "label": "Intégrer LUMIERE.ps"
+        }
+      ]
+    },
+    {
+      "id": "001-19",
+      "colorId": "white",
+      "getItem": "lumiere",
+      "narration": [
+        "Félicitations !",
+        "Tu as retrouvé ta LUMIERE !",
+        "{img:img/lumiere.png}"
+      ],
+      "links": [
+        {
+          "targetId": "001-20",
+          "label": "Il n'y a plus rien à faire ici."
+        }
+      ]
+    },
+     {
+      "id": "001-20",
+      "colorId": "white",
+      "narration": [
+        "Tu décides de partir explorer une nouvelle voie."
+      ],
+      "links": [
+        {
+          "targetId": "HUB-00",
+          "label": "Je retourne aux portes."
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+
+    {
+      "id": "003-00b",
+      "colorId": "grey",
+      "narration": [
+        "Tu ouvres les yeux.",
+        "Chargement en cours...",
+        "Initialisation.",
+        "Devant toi se trouve une porte."
+      ],
+      "links": [
+        {
+          "targetId": "003-01b",
+          "label": "J'ouvre la porte."
+        }
+      ]
+    },
+    {
+      "id": "003-01b",
+      "colorId": "grey",
+      "narration": [
+        "Tu ouvres la porte."
+      ],
+      "links": [
+        {
+          "targetId": "003-02b",
+          "label": "J'entre."
+        }
+      ]
+    },
+    {
+      "id": "003-02b",
+      "colorId": "grey",
+      "narration": [
+        "Tu entres dans un nouvel espace.",
+        "Devant toi se trouve une infinité de portes.",
+        "Alignées dans toutes les directions à la fois.",
+        "Mais chacune d'entre elles, aussi distante soit elle, est à ta portée."
+      ],
+      "links": [
+        {
+          "targetId": "003-03b",
+          "label": "Je choisis une porte au hasard."
+        },
+        {
+          "targetId": "003-04b",
+          "label": "Je fais demi-tour et reviens à mon point de départ."
+        }
+      ]
+    },
+    {
+      "id": "003-03b",
+      "colorId": "grey",
+      "narration": [
+        "Tu ouvres une porte aléatoire."
+      ],
+      "links": [
+        {
+          "targetId": "003-02b",
+          "label": "J'entre par cette porte."
+        }
+      ]
+    },
+    {
+      "id": "003-04b",
+      "colorId": "grey",
+      "narration": [
+        "Tu décides de rebrousser chemin."
+      ],
+      "links": [
+        {
+          "targetId": "HUB-00",
+          "label": "..."
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "id": "013-00b",
+      "colorId": "azur",
+      "narration": [
+        "Tu ouvres les yeux.",
+        "Te voilà seule, sur un lit, dans une chambre en ruines qui a l'air de faire partie d'une grande structure toute autant en ruines."
+      ],
+      "links": [
+        {
+          "targetId": "013-01b",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "013-01b",
+      "colorId": "azur",
+      "narration": [
+        "En face de toi, une immense CREATURE monstrueuse te regarde, immobile, droit dans tes pupilles.",
+        "Une CREATURE faite d'un amalgame de centaines d'yeux et de dizaines de mains."
+      ],
+      "links": [
+        {
+          "targetId": "013-02b",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "013-02b",
+      "colorId": "azur",
+      "narration": [
+        "Des yeux qui dévorent ton corps du regard."
+      ],
+      "links": [
+        {
+          "targetId": "013-03b",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "013-03b",
+      "colorId": "azur",
+      "narration": [
+        "Des mains qui n'attendent que de forcer le contact sur ton corps."
+      ],
+      "links": [
+        {
+          "targetId": "013-04b",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "013-04b",
+      "colorId": "azur",
+      "narration": [
+        "Quelque chose de terrible va arriver.",
+        "Que faire ?"
+      ],
+      "links": [
+        {
+          "targetId": "013-05b",
+          "label": "J'ai trop peur pour continuer."
+        }
+      ]
+    },
+    {
+      "id": "013-05b",
+      "colorId": "azur",
+      "narration": [
+        "La FILLE ne se sent pas encore prête à parcourir cette voie.",
+        "Elle décide de revenir en arrière."
+      ],
+      "links": [
+        {
+          "targetId": "HUB-00",
+          "label": "Partons d'ici."
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "id": "105-00",
+      "colorId": "pink",
+      "narration": [
+        "Tu ouvres les yeux.",
+        "Tu t'es encore endormie...",
+        "Concentre-toi ! Tu es à l'école, il faut écouter."
+      ],
+      "links": [
+        {
+          "targetId": "105-01",
+          "label": "Okay okay... Pardon."
+        }
+      ]
+    },
+    {
+      "id": "105-01",
+      "colorId": "pink",
+      "narration": [
+        "Tu as perdu le fil de la leçon.",
+        "Tu regardes autour de toi."
+      ],
+      "links": [
+        {
+          "targetId": "105-02a",
+          "label": "J'observe MAITRESSE.npc."
+        },
+        {
+          "targetId": "105-02b",
+          "label": "J'observe MEILLEUREAMIE.npc."
+        }
+      ]
+    },
+    {
+      "id": "105-02a",
+      "colorId": "pink",
+      "narration": [
+        "MAITRESSE.npc ne fait pas vraiment attention à toi.",
+        "Tu te demandes en quoi connaître la date de la mort de Jules César te sera utile dans ta vie.",
+        "Finalement c'était peut-être le bon choix de s'endormir en plein cours."
+      ],
+      "links": [
+        {
+          "targetId": "105-02b",
+          "label": "J'observe MEILLEUREAMIE.npc."
+        },
+        {
+          "targetId": "105-06",
+          "label": "Dring dring."
+        }
+      ]
+    },
+    {
+      "id": "105-02b",
+      "colorId": "pink",
+      "narration": [
+        "MEILLEUREAMIE.npc te regarde en silence avec un sourire malicieux.",
+        "Elle te fait un six seven.",
+        "Elle rigole toute seule.",
+        "Tu songes à lui dire que six seven c'est démodé depuis des mois."
+      ],
+      "links": [
+        {
+          "targetId": "105-03b",
+          "label": "Je lui dis."
+        }
+      ]
+    },
+    {
+      "id": "105-03b",
+      "colorId": "pink",
+      "narration": [
+        "MEILLEUREAMIE.npc ne te croit pas.",
+        "Il ne te reste qu'une seule solution pour la convaincre."
+      ],
+      "links": [
+        {
+          "targetId": "105-04b",
+          "label": "Je la défie en aura battle."
+        }
+      ]
+    },
+    {
+      "id": "105-04b",
+      "colorId": "pink",
+      "narration": [
+        "Ce n'est pas le moment pour ça. Tu es en plein cours.",
+        "Tu regardes autour de toi."
+      ],
+      "links": [
+        {
+          "targetId": "105-02a",
+          "label": "J'observe MAITRESSE.npc."
+        },
+        {
+          "targetId": "105-06",
+          "label": "Dring dring."
+        }
+      ]
+    },
+    {
+      "id": "105-06",
+      "colorId": "pink",
+      "narration": [
+        "La cloche sonne. Il est 16h30.",
+        "C'est pas trop tôt.",
+        "Tu quittes l'école et attend le bus pour rentrer chez toi.",
+        "Quelques temps plus tard...",
+        "Le bus arrive."
+      ],
+      "links": [
+        {
+          "targetId": "105-07",
+          "label": "Je rentre à la maison."
+        }
+      ]
+    },
+    {
+      "id": "105-07",
+      "colorId": "pink",
+      "narration": [
+        "En entrant chez toi, MAMAN.npc te salue et dépose ton goûter préféré sur la table de la cuisine.",
+        "Tu savoures la tartine de nutella discount.",
+        "Miamiam.",
+        "La vie est belle."
+      ],
+      "links": [
+        {
+          "targetId": "105-08",
+          "label": "Je vais dans ma chambre jouer à la DS."
+        }
+      ]
+    },
+    {
+      "id": "105-08",
+      "colorId": "pink",
+      "narration": [
+        "Tu passes ta soirée à jouer à Nintendogs et à Pokémon.",
+        "La vie est belle.",
+        "Le temps passe.",
+        "La nuit tombe."
+      ],
+      "links": [
+        {
+          "targetId": "105-09",
+          "label": "Je met fin à la simulation."
+        }
+      ]
+    },
+    {
+      "id": "105-09",
+      "colorId": "pink",
+      "narration": [
+        "Les murs se dématérialisent autour de toi.",
+        "Les différents objets qui jonchaient le sol se volatilisent dans une nuée numérique difficilement perceptible.",
+        "Te voilà dans un autre endroit.",
+        "Extinction du protocole NORMALITE.ps...",
+        "Tu as mis fin à ta propre exécution.",
+        "La FILLE est en face de toi et te regarde avec sérénité."
+      ],
+      "links": [
+        {
+          "targetId": "105-10",
+          "label": "J'observe l'endroit où nous nous situons."
+        }
+      ]
+    },
+    {
+      "id": "105-10",
+      "colorId": "pink",
+      "narration": [
+        "Tu reconnais ta chambre dans la MAISON dans la BULLE.",
+        "Tu remarques que la MAISON est incomplète. Il manque encore des chambres."
+      ],
+      "links": [
+        {
+          "targetId": "105-11",
+          "label": "J'observe la FILLE."
+        }
+      ]
+    },
+    {
+      "id": "105-11",
+      "colorId": "pink",
+      "narration": [
+        "En observant ta simulation, la FILLE se souvient.",
+        "Elle se souvient qu'elle était une humaine normale, presque banale à première vue.",
+        "Qu'elle allait à l'école, mangeait des goûters, jouait à la DS.",
+        "Qu'est ce qui a bien pu changer ?"
+      ],
+      "links": [
+        {
+          "targetId": "105-12",
+          "label": "Rien n'a changé."
+        }
+      ]
+    },
+    {
+      "id": "105-12",
+      "colorId": "pink",
+      "narration": [
+        "Tu dis à la FILLE que rien n'a changé.",
+        "La FILLE prend conscience qu'elle est toujours une humaine normale.",
+        "Elle te remercie et te tend la main."
+      ],
+      "links": [
+        {
+          "targetId": "105-13",
+          "label": "[Se placer dans les yeux de la FILLE.]"
+        }
+      ]
+    },
+    {
+      "id": "105-13",
+      "colorId": "white",
+      "narration": [
+        "Tu tends la main au protocole NORMALITE.ps assis par terre en face de toi.",
+        "Elle attrape ta main en te regardant dans les yeux."
+      ],
+      "links": [
+        {
+          "targetId": "105-14",
+          "label": "Intégrer NORMALITE.ps"
+        }
+      ]
+    },
+    {
+      "id": "105-14",
+      "colorId": "white",
+      "getItem": "normalite",
+      "narration": [
+        "Félicitations !",
+        "Tu as retrouvé ta NORMALITE !",
+        "{img:img/normalite.png}"
+      ],
+      "links": [
+        {
+          "targetId": "105-15",
+          "label": "Il n'y a plus rien à faire ici."
+        }
+      ]
+    },
+    {
+      "id": "105-15",
+      "colorId": "white",
+      "narration": [
+        "Tu décides de retourner à ton point de départ."
+      ],
+      "links": [
+        {
+          "targetId": "HUB-00",
+          "label": "Je sors de la MAISON."
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "id": "999-00b",
+      "colorId": "indigo",
+      "narration": [
+        "Tu ouvres les yeux.",
+        "Mais tu ne vois rien.",
+        "Il fait tout noir."
+      ],
+      "links": [
+        {
+          "targetId": "999-01b",
+          "label": "Je suis assise dans un petit espace ?"
+        }
+      ]
+    },
+    {
+      "id": "999-01b",
+      "colorId": "indigo",
+      "narration": [
+        "Tu es assise par terre, recroquevillée, tes bras autour de tes genoux et ta tête enfouie dans tes bras.",
+        "Tes coudes touchent une surface de chaque côté.",
+        "La pointe de tes pieds et le bas de ton dos touchent une surface devant et derrière toi.",
+        "L'arrière de ta tête touche une surface au dessus de toi."
+      ],
+      "links": [
+        {
+          "targetId": "999-02b",
+          "label": "Je suis dans une BOITE."
+        }
+      ]
+    },
+    {
+      "id": "999-02b",
+      "colorId": "indigo",
+      "narration": [
+        "Tu es dans une BOITE.",
+        "Bien que ta position pourrait paraître douloureuse, tu ne ressens aucun inconfort.",
+        "La BOITE n'a pas l'air de pouvoir s'ouvrir."
+      ],
+      "links": [
+        {
+          "targetId": "999-03b",
+          "label": "De toutes façons, je ne veux pas sortir de la BOITE."
+        }
+      ]
+    },
+    {
+      "id": "999-03b",
+      "colorId": "indigo",
+      "narration": [
+        "Tu prend conscience que ton rôle dans cette histoire est simplement d'exister à l'intérieur de la BOITE."
+      ],
+      "links": [
+        {
+          "targetId": "999-04b",
+          "label": "Une POUPEE n'a pas d'agentivité."
+        }
+      ]
+    },
+    {
+      "id": "999-04b",
+      "colorId": "indigo",
+      "narration": [
+        "C'est ce que tu penses.",
+        "Peut-être que la FILLE ne partage pas ton avis.",
+        "Mais elle ne sait pas encore que la BOITE existe.",
+        "Et encore moins qu'il y a une POUPEE à l'intérieur."
+      ],
+      "links": [
+        {
+          "targetId": "999-05b",
+          "label": "La seule chose que je peux faire c'est attendre."
+        }
+      ]
+    },
+    {
+      "id": "999-05b",
+      "colorId": "indigo",
+      "narration": [
+        "Tu décides d'attendre que la FILLE ait exploré d'autres voies."
+      ],
+      "links": [
+        {
+          "targetId": "HUB-00",
+          "label": "Retournons en arrière."
+        }
+      ]
+    },
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "id": "107-00b",
+      "colorId": "magenta",
+      "narration": [
+        "Tu ouvres les yeux.",
+        "Devant toi se trouve un MIROIR.",
+        "Tu t'en approches.",
+        "Mais tu ne vois pas ton reflet."
+      ],
+      "links": [
+        {
+          "targetId": "107-01b",
+          "label": "Je n'ai pas besoin de reflet. Je sais déjà à quoi je ressemble."
+        }
+      ]
+    },
+    {
+      "id": "107-01b",
+      "colorId": "magenta",
+      "narration": [
+        "En effet.",
+        "Tu sais déjà que tu es quasiment la FILLE.",
+        "Tu sais que la FILLE est ton reflet."
+      ],
+      "links": [
+        {
+          "targetId": "107-02b",
+          "label": "C'est faux."
+        }
+      ]
+    },
+    {
+      "id": "107-02b",
+      "colorId": "magenta",
+      "narration": [
+        "Comment ça c'est faux ?"
+      ],
+      "links": [
+        {
+          "targetId": "107-03b",
+          "label": "La FILLE n'est pas mon reflet. Je suis le reflet de la FILLE."
+        }
+      ]
+    },
+    {
+      "id": "107-03b",
+      "colorId": "magenta",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "107-04b",
+          "label": "Plus précisément, je suis le reflet d'une partie de la FILLE."
+        }
+      ]
+    },
+    {
+      "id": "107-04b",
+      "colorId": "magenta",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "107-05b",
+          "label": "Ce MIROIR est un portail qui donne sur une pièce de la MAISON."
+        }
+      ]
+    },
+    {
+      "id": "107-05b",
+      "colorId": "magenta",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "107-06b",
+          "label": "Mais la MAISON n'a pas encore été entièrement restaurée dans la BULLE."
+        }
+      ]
+    },
+    {
+      "id": "107-06b",
+      "colorId": "magenta",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "107-07b",
+          "label": "Donc la FILLE ne peut pas observer son reflet dans la pièce où se situe ce MIROIR."
+        }
+      ]
+    },
+    {
+      "id": "107-07b",
+      "colorId": "magenta",
+      "narration": [
+        "Alors cela signifie que tu ne te trouves pas devant le MIROIR ?"
+      ],
+      "links": [
+        {
+          "targetId": "107-08b",
+          "label": "Non. Je suis dans le MIROIR."
+        }
+      ]
+    },
+    {
+      "id": "107-08b",
+      "colorId": "magenta",
+      "narration": [
+        "Alors que faire ?"
+      ],
+      "links": [
+        {
+          "targetId": "107-09b",
+          "label": "Ce n'est pas encore l'heure d'explorer ma voie."
+        }
+      ]
+    },
+    {
+      "id": "107-09b",
+      "colorId": "magenta",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "HUB-00",
+          "label": "Laissons la FILLE explorer d'autres voies."
+        }
+      ]
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ]
+}

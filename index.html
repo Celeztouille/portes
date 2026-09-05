@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Une histoire interactive web">
+    <title>Portes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button id="btn-prev" class="nav-btn" style="display: none;">&lt;&lt; Précédent</button>
+
+    <div id="inventory-container" class="inventory-box">
+        <div class="inventory-grid" id="inventory-grid">
+            <div class="slot" data-id="lumiere"></div>
+            <div class="slot" data-id="tenebres"></div>
+            <div class="slot" data-id="normalite"></div>
+            <div class="slot" data-id="occcultisme"></div>
+            <div class="slot" data-id="creation"></div>
+            <div class="slot" data-id="objet"></div>
+            <div class="slot" data-id="infini"></div>
+            <div class="slot" data-id="resilience"></div>
+        </div>
+    </div>
+
+    <main class="story-container">
+            
+        <div class="scene">
+            <p class="narration">Ceci est un exemple de paragraphe de narration. Le style par défaut est conçu pour une lecture fluide.</p>
+        </div>
+
+        <div class="choices">
+            <button class="choice-btn">Option 1 : Continuer tout droit</button>
+            <button class="choice-btn">Option 2 : Examiner l'objet</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
