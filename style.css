@@ -2,7 +2,7 @@
 :root {
     --bg-color: #fff;
     --text-color: #333333;
-    --choice-color: #4b4bff;
+    --choice-color: #7979fd;
     --font-main: Courier, Helvetica, Arial, sans-serif;
 }
 
@@ -156,6 +156,12 @@ body {
     height: 100%;
     object-fit: contain;
     animation: popIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+    -webkit-user-select: none; 
+    -moz-user-select: none;    
+    -ms-user-select: none;     
+    user-select: none;         
+    touch-action: manipulation; 
 }
 
 @keyframes popIn {

@@ -29,6 +29,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let obtainedItems = [];
 
+    let progressionFlags = {
+        "hub04": false, // Déclenché à 4 objets
+        "hub06": false, // Déclenché à 6 objets
+        "hub08": false  // Déclenché à 8 objets
+    };
+
     function addToInventory(itemId) {
         if (obtainedItems.includes(itemId)) return;
 
@@ -59,8 +65,10 @@ document.addEventListener('DOMContentLoaded', () => {
     "white": { bg: "#fff", text: "#000"},
     "black": { bg: "#000", text: "#fff"},
     "yellow": { bg: "#fff", text: "#000", blur:"#ff0"},
+    "purple": { bg: "#000", text: "#fff", blur:"rgb(111, 0, 255)"},
     "grey": { bg: "#888", text: "#000", blur:"#fff"},
     "azur" : { bg: "#000", text: "#fff", blur:"rgb(98, 218, 240)"},
+    "turquoise" : { bg: "#000", text: "#fff", blur:"rgb(98, 240, 204)"},
     "pink" : { bg: "#fff", text: "#000", blur:"rgb(215, 132, 248)"},
     "indigo" : { bg: "#000", text: "#fff", blur:"rgb(0, 53, 197)"},
     "magenta" :  { bg: "#fff", text: "#000", blur:"rgb(255, 0, 140)"}
@@ -119,6 +127,28 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+
+    function getHubTarget() {
+        const itemCount = obtainedItems.length;
+        
+        if (itemCount >= 4 && !progressionFlags.hub04) {
+            progressionFlags.hub04 = true;
+            return "HUB-04";
+        }
+        
+        if (itemCount >= 6 && !progressionFlags.hub06) {
+            progressionFlags.hub06 = true;
+            return "HUB-06";
+        }
+
+        if (itemCount >= 8 && !progressionFlags.hub08) {
+            progressionFlags.hub08 = true;
+            return "HUB-08";
+        }
+
+        return "HUB-00";
+    }
+
     
     fetch('story.json')
         .then(response => {
@@ -156,7 +186,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const colors = getColors(node.colorId);
         document.body.style.backgroundColor = colors.bg;
         document.body.style.color = colors.text;
-        const btnColor = '#4b4bff';
+        const btnColor = '#7979fd';
         document.documentElement.style.setProperty('--choice-color', btnColor);
 
         narrationElement.innerHTML = '';
@@ -226,7 +256,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const colors = getColors(node.colorId);
         document.body.style.backgroundColor = colors.bg;
         document.body.style.color = colors.text;
-        const btnColor = '#4b4bff';
+        const btnColor = '#7979fd';
         document.documentElement.style.setProperty('--choice-color', btnColor);
 
         if (colors.blur) {
@@ -333,9 +363,15 @@ document.addEventListener('DOMContentLoaded', () => {
             
             btn.addEventListener('click', (e) => {
                 e.stopPropagation();
+
+                let targetId = link.targetId;
+                if (link.targetId === "HUB-00") {
+                    targetId = getHubTarget();
+                }
+
                 historyStack.push(currentNode.id);
                 updatePrevButton();
-                loadNode(link.targetId);
+                loadNode(targetId);
             });
 
             choicesContainer.appendChild(btn);
@@ -421,18 +457,47 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    function getDynamicTarget(baseTargetId, itemCount) {
+        // Règle Porte 3
+        if (baseTargetId === "003-00b") {
+            return (itemCount >= 6) ? "003-00" : "003-00b";
+        }
+        
+        // Règle Porte 13
+        if (baseTargetId === "013-00b") {
+            return (itemCount >= 6) ? "013-00" : "013-00b";
+        }
+
+        // Règle Porte 999
+        if (baseTargetId === "999-00b") {
+            return (itemCount >= 4) ? "999-00" : "999-00b";
+        }
+
+        // Règle Porte 107
+        if (baseTargetId === "107-00b") {
+            return (itemCount >= 4) ? "107-00" : "107-00b";
+        }
+
+        // Règle Porte 108
+        if (baseTargetId === "000-00") {
+            return (itemCount >= 8) ? "108-00" : "000-00";
+        }
+
+        return baseTargetId;
+    }
+
     function createImageCircle(images, container) {
         const circleContainer = document.createElement('div');
         circleContainer.className = 'image-circle-container';
         circleContainer.style.position = 'relative';
         circleContainer.style.width = '100%';
-        //circleContainer.style.height = '400px'; // Hauteur suffisante pour le cercle
         circleContainer.style.display = 'flex';
         circleContainer.style.justifyContent = 'center';
         circleContainer.style.alignItems = 'center';
         circleContainer.style.marginTop = '2rem';
 
         const radius = 300;
+        const itemCount = obtainedItems.length;
 
         images.forEach((imgData, index) => {
             const imgWrapper = document.createElement('div');
@@ -450,8 +515,8 @@ document.addEventListener('DOMContentLoaded', () => {
             imgWrapper.style.top = `calc(50% + ${y}px - 75px)`;
             
             // Style de l'image
-            imgWrapper.style.width = '150px';
-            imgWrapper.style.height = '150px';
+            imgWrapper.style.width = '180px';
+            imgWrapper.style.height = '180px';
             imgWrapper.style.cursor = 'pointer';
             imgWrapper.style.transition = 'transform 0.3s, filter 0.3s';
             imgWrapper.style.overflow = 'hidden';
@@ -469,23 +534,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
             imgWrapper.appendChild(img);
 
-            // Effet de survol
-            imgWrapper.addEventListener('mouseenter', () => {
-                imgWrapper.style.transform = 'scale(1.15)';
-            });
-            imgWrapper.addEventListener('mouseleave', () => {
-                imgWrapper.style.transform = 'scale(1)';
-            });
-
             // Gestion du clic
             imgWrapper.addEventListener('click', (e) => {
                 e.stopPropagation();
+
+                let finalTargetId = getDynamicTarget(imgData.targetId, itemCount);
+
                 // Animation de transition
                 container.style.opacity = '0';
                 setTimeout(() => {
                     historyStack.push(currentNode.id); // Sauvegarde le hub dans l'historique
                     updatePrevButton();
-                    loadNode(imgData.targetId);
+                    loadNode(finalTargetId);
                     container.style.opacity = '1';
                 }, 300);
             });

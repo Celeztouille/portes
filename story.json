@@ -302,7 +302,7 @@
       "id": "000-18",
       "colorId": "white",
       "narration": [
-        "Dans l'espace qui semble être le jardin de la MAISON, tu remarques que des objets sont apparus pendant que tu \"explorais\" l'intérieur."
+        "Dans l'espace qui semble être le jardin de la MAISON, tu remarques que des portes sont apparus pendant que tu \"explorais\" l'intérieur."
       ],
       "links": [
         {
@@ -319,16 +319,57 @@
       ],
       "links": [],
       "images": [
-        { "targetId": "001-00", "url": "https://placehold.co/150x150/2c3e50/fff?text=Porte+1", "alt": "Porte 1" },
-        { "targetId": "002-00", "url": "https://placehold.co/150x150/4a2c50/fff?text=Porte+2", "alt": "Porte 2" },
-        { "targetId": "003-00b", "url": "https://placehold.co/150x150/500000/fff?text=Porte+3", "alt": "Porte 3" },
-        { "targetId": "013-00b", "url": "https://placehold.co/150x150/2c3e50/fff?text=Porte+13", "alt": "Porte 13" },
-        { "targetId": "102-00", "url": "https://placehold.co/150x150/4a2c50/fff?text=Porte+102", "alt": "Porte 102" },
-        { "targetId": "105-00", "url": "https://placehold.co/150x150/500000/fff?text=Porte+105", "alt": "Porte 105" },
-        { "targetId": "999-00b", "url": "https://placehold.co/150x150/2c3e50/fff?text=Porte+999", "alt": "Porte 999" },
-        { "targetId": "107-00b", "url": "https://placehold.co/150x150/4a2c50/fff?text=Porte+107", "alt": "Porte 107" },
-        { "targetId": "000-00", "url": "https://placehold.co/150x150/500000/fff?text=Porte+108", "alt": "Porte 108" }
+        { "targetId": "000-00", "url": "img/door108.png", "alt": "Porte 108" },
+        { "targetId": "001-00", "url": "img/door001.png", "alt": "Porte 1" },
+        { "targetId": "013-00b", "url": "img/door013.png", "alt": "Porte 13" },
+        { "targetId": "107-00b", "url": "img/door107.png", "alt": "Porte 107" },
+        { "targetId": "105-00", "url": "img/door105.png", "alt": "Porte 105" },
+        { "targetId": "102-00", "url": "img/door102.png", "alt": "Porte 102" },
+        { "targetId": "999-00b", "url": "img/door999.png", "alt": "Porte 999" },
+        { "targetId": "003-00b", "url": "img/door003.png", "alt": "Porte 3" },
+        { "targetId": "002-00", "url": "img/door002.png", "alt": "Porte 2" }
     ]
+    },
+    {
+      "id": "HUB-04",
+      "colorId": "white",
+      "narration": [
+        "Tu entends un sourd vrombissement constant qui a l'air de s'échapper d'un cube lointain.",
+        "Tu entends le léger battement d'ailes d'une créature angélique."
+      ],
+      "links": [
+        {
+          "targetId": "HUB-00",
+          "label": "De nouvelles voies ont l'air de s'être débloquées."
+        }
+      ]
+    },
+    {
+      "id": "HUB-06",
+      "colorId": "white",
+      "narration": [
+        "Tu entends le bruit du craquèlement de la glace.",
+        "Tu entends le bruit d'une ouverture de porte qui se répète en écho vers l'infini."
+      ],
+      "links": [
+        {
+          "targetId": "HUB-00",
+          "label": "De nouvelles voies ont l'air de s'être débloquées."
+        }
+      ]
+    },
+    {
+      "id": "HUB-08",
+      "colorId": "white",
+      "narration": [
+        "Tu entends ton propre coeur battre dans ta poitrine."
+      ],
+      "links": [
+        {
+          "targetId": "HUB-00",
+          "label": "La dernière voie a l'air de s'être débloquée."
+        }
+      ]
     },
 
 
@@ -734,6 +775,300 @@
 
 
 
+    {
+      "id": "002-00",
+      "colorId": "purple",
+      "narration": [
+        "Tu ouvres les yeux.",
+        "La FILLE est en face de toi."
+      ],
+      "links": [
+        {
+          "targetId": "002-01",
+          "label": "Salut !"
+        }
+      ]
+    },
+    {
+      "id": "002-01",
+      "colorId": "purple",
+      "narration": [
+        "La FILLE te salue en retour.",
+        "Elle te raconte ce qui vient de lui arriver.",
+        "Comment elle s'est réveillée au milieu de rien.",
+        "Comment elle est tombée dans les TENEBRES.",
+        "Comment elle a trouvé une BULLE et une MAISON incomplète."
+      ],
+      "links": [
+        {
+          "targetId": "002-02",
+          "label": "J'écoute la FILLE."
+        }
+      ]
+    },
+    {
+      "id": "002-02",
+      "colorId": "purple",
+      "narration": [
+        "La FILLE ne comprend pas très bien qui tu es.",
+        "Tu dis a la fille que tu es un protocole.",
+        "Une entité imaginaire avec un rôle défini.",
+        "Cachée derrière une porte."
+      ],
+      "links": [
+        {
+          "targetId": "002-03",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "002-03",
+      "colorId": "purple",
+      "narration": [
+        "La FILLE te demande quel est ton rôle."
+      ],
+      "links": [
+        {
+          "targetId": "002-04",
+          "label": "Je ne dis rien."
+        }
+      ]
+    },
+    {
+      "id": "002-04",
+      "colorId": "purple",
+      "narration": [
+        "Tu es emplie de mystère.",
+        "Mais tu as raison.",
+        "C'est à la FILLE de comprendre qui tu es."
+      ],
+      "links": [
+        {
+          "targetId": "002-05",
+          "label": "Je jette un oeil au chemin devant nous."
+        }
+      ]
+    },
+    {
+      "id": "002-05",
+      "colorId": "purple",
+      "narration": [
+        "Devant vous, un chemin se dessine au milieu de TENEBRES.",
+        "C'est ta voie."
+      ],
+      "links": [
+        {
+          "targetId": "002-06",
+          "label": "Je propose à la FILLE de parcourir ma voie."
+        }
+      ]
+    },
+    {
+      "id": "002-06",
+      "colorId": "purple",
+      "narration": [
+        "Malgré sa peur des TENEBRES,",
+        "la FILLE accepte."
+      ],
+      "links": [
+        {
+          "targetId": "002-07",
+          "label": "On avance sur le chemin."
+        }
+      ]
+    },
+    {
+      "id": "002-07",
+      "colorId": "purple",
+      "narration": [
+        "Vous avancez au milieu des TENEBRES.",
+        "La FILLE ne comprend pas.",
+        "Avant de trouver la BULLE, elle a vu que la MATIERE SOMBRE était hostile.",
+        "Alors comment les TENEBRES de cette voie peuvent-elles être inoffensives ?"
+      ],
+      "links": [
+        {
+          "targetId": "002-08",
+          "label": "Ce sont mes TENEBRES."
+        }
+      ]
+    },
+    {
+      "id": "002-08",
+      "colorId": "purple",
+      "narration": [
+        "La FILLE te demande pourquoi tu es gentille si tu es TENEBRES."
+      ],
+      "links": [
+        {
+          "targetId": "002-09",
+          "label": "La teinte."
+        }
+      ]
+    },
+    {
+      "id": "002-09",
+      "colorId": "purple",
+      "narration": [
+        "Tu expliques ton point de vue à la FILLE.",
+        "Peut-être que les TENEBRES ne sont ni gentilles ni méchantes par nature.",
+        "Mais que quelque chose leur donne une teinte.",
+        "Ta façon de les percevoir."
+      ],
+      "links": [
+        {
+          "targetId": "002-10",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "002-10",
+      "colorId": "purple",
+      "narration": [
+        "La FILLE te demande comment tu perçois les TENEBRES."
+      ],
+      "links": [
+        {
+          "targetId": "002-11",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "002-11",
+      "colorId": "purple",
+      "narration": [
+        "Selon toi, les émotions sont comme une LUMIERE aveuglante.",
+        "Il est difficile de réfléchir quand on est aveuglée par ses émotions.",
+        "Alors les TENEBRES permettent de mieux distinguer le vrai du faux.",
+        "Les TENEBRES sont calmes. Apaisantes.",
+        "Elles permettent de faire les bons choix."
+      ],
+      "links": [
+        {
+          "targetId": "002-12",
+          "label": "On peut appeler ça la raison. Ou le pragmatisme."
+        }
+      ]
+    },
+    {
+      "id": "002-12",
+      "colorId": "purple",
+      "narration": [
+        "La FILLE te demande si tu es une entité dénuée d'émotions.",
+        "Tu es un protocole.",
+        "Mais malgré ta nature, toi aussi, tu ressens des émotions.",
+        "Et tu les apprécies."
+      ],
+      "links": [
+        {
+          "targetId": "002-13",
+          "label": "Elles n'entrent juste pas en compte quand je dois décider."
+        }
+      ]
+    },
+    {
+      "id": "002-13",
+      "colorId": "purple",
+      "narration": [
+        "Tu demandes à la FILLE comment elle gère ses propres prises de décision.",
+        "La FILLE te répond.",
+        "Elle n'aime pas ça du tout.",
+        "Quand elle a un choix difficile à faire, elle se laisse submerger par ses émotions.",
+        "Du coup elle se roule en boule dans son lit et elle pleure jusqu'à l'échéance.",
+        "Et à la fin, elle choisit au hasard."
+      ],
+      "links": [
+        {
+          "targetId": "002-14",
+          "label": "Je suis là maintenant."
+        }
+      ]
+    },
+    {
+      "id": "002-14",
+      "colorId": "purple",
+      "narration": [
+        "Tu dis a la FILLE que les TENEBRES peuvent l'aider à affronter son indécision.",
+        "Que c'est leur rôle.",
+        "Que c'est ton rôle. "
+      ],
+      "links": [
+        {
+          "targetId": "002-15",
+          "label": "On est arrivées au bout du chemin."
+        }
+      ]
+    },
+    {
+      "id": "002-15",
+      "colorId": "purple",
+      "narration": [
+        "Le chemin vous conduit dans une chambre.",
+        "Une nouvelle chambre.",
+        "Dans la MAISON. Dans la BULLE.",
+        "La FILLE rayonne de la douce obscurité d'un esprit clair.",
+        "Elle te remercie et te tend la main."
+      ],
+      "links": [
+        {
+          "targetId": "002-16",
+          "label": "[Se placer dans les yeux de la FILLE.]"
+        }
+      ]
+    },
+    {
+      "id": "002-16",
+      "colorId": "black",
+      "narration": [
+        "Tu tends la main au protocole TENEBRES.ps en face de toi, dans sa nouvelle chambre.",
+        "Elle attrape ta main en te regardant dans les yeux."
+      ],
+      "links": [
+        {
+          "targetId": "002-17",
+          "label": "Intégrer TENEBRES.ps"
+        }
+      ]
+    },
+    {
+      "id": "002-17",
+      "colorId": "black",
+      "getItem": "tenebres",
+      "narration": [
+        "Félicitations !",
+        "Tu as retrouvé tes TENEBRES !",
+        "{img:img/tenebres.png}"
+      ],
+      "links": [
+        {
+          "targetId": "002-18",
+          "label": "Il n'y a plus rien à faire ici."
+        }
+      ]
+    },
+    {
+      "id": "002-18",
+      "colorId": "black",
+      "narration": [
+        "Tu décides de partir explorer une nouvelle voie."
+      ],
+      "links": [
+        {
+          "targetId": "HUB-00",
+          "label": "Je retourne aux portes."
+        }
+      ]
+    },
+
+
+
+
+
+
+
 
 
     {
@@ -925,6 +1260,383 @@
 
 
 
+
+
+
+
+
+
+
+    {
+      "id": "102-00",
+      "colorId": "turquoise",
+      "narration": [
+        "Tu ouvres les yeux.",
+        "La FILLE vient d'ouvrir ta porte et s'engage sur ta voie."
+      ],
+      "links": [
+        {
+          "targetId": "102-01",
+          "label": "J'ai soif..."
+        }
+      ]
+    },
+    {
+      "id": "102-01",
+      "colorId": "turquoise",
+      "narration": [
+        "Tu as... soif ?",
+        "Mais tu es un protocole, un programme informatique.",
+        "Tu ne peux pas avoir soif."
+      ],
+      "links": [
+        {
+          "targetId": "102-02",
+          "label": "M'en fiche j'ai soif c'est moi qui décide.."
+        }
+      ]
+    },
+    {
+      "id": "102-02",
+      "colorId": "turquoise",
+      "narration": [
+        "Tu as décidé que tu avais soif."
+      ],
+      "links": [
+        {
+          "targetId": "102-03",
+          "label": "J'veux du thé."
+        }
+      ]
+    },
+    {
+      "id": "102-03",
+      "colorId": "turquoise",
+      "narration": [
+        "Tu as décidé que tu avais soif et que tu voulais du thé.",
+        "Le hasard fait bien les choses.",
+        "Il y a une théière positionnée sur une table dix mètres devant toi."
+      ],
+      "links": [
+        {
+          "targetId": "102-04",
+          "label": "Dix mètres ? Azy flemme."
+        }
+      ]
+    },
+    {
+      "id": "102-04",
+      "colorId": "turquoise",
+      "narration": [
+        "Ta flemme est plus grande que ta soif.",
+        "Tu décides de ne pas bouger."
+      ],
+      "links": [
+        {
+          "targetId": "102-05",
+          "label": "C'est un espace imaginaire ici non ? Rajoute moi un peu de télékinésie stp."
+        }
+      ]
+    },
+    {
+      "id": "102-05",
+      "colorId": "turquoise",
+      "narration": [
+        "Tu as raison, cela ne devrait pas être impossible.",
+        "Ecriture d'une fonction Telekinesie() dans le code source du protocole OCCULTISME.ps.",
+        "Recompilation du protocole OCCULTISME.ps.",
+        "...",
+        "Compilation terminée."
+      ],
+      "links": [
+        {
+          "targetId": "102-06",
+          "label": "Je tend un bras vers la théière."
+        }
+      ]
+    },
+    {
+      "id": "102-06",
+      "colorId": "turquoise",
+      "narration": [
+        "Tu tends ton bras vers la théière.",
+        "Elle se met à flotter dans l'espace.",
+        "Une petite tasse apparaît devant toi.",
+        "Tu attrapes la poignée de la théière."
+      ],
+      "links": [
+        {
+          "targetId": "102-07",
+          "label": "Tea time"
+        }
+      ]
+    },
+    {
+      "id": "102-07",
+      "colorId": "turquoise",
+      "narration": [
+        "Tu verses un peu de thé dans ta tasse.",
+        "Le thé est pile à la bonne température.",
+        "Tu penses à la FILLE qui est en train de parcourir ta voie de son côté."
+      ],
+      "links": [
+        {
+          "targetId": "102-08",
+          "label": "J'ai encore le temps avant qu'elle vienne à moi."
+        }
+      ]
+    },
+    {
+      "id": "102-08",
+      "colorId": "turquoise",
+      "narration": [
+        "Les minutes passent, durant lesquelles tu sirotes lentemement ton thé.",
+        "...",
+        "Tu n'as plus soif."
+      ],
+      "links": [
+        {
+          "targetId": "102-09",
+          "label": "J'observe les feuilles de thé au fond de la tasse."
+        }
+      ]
+    },
+    {
+      "id": "102-09",
+      "colorId": "turquoise",
+      "narration": [
+        "Tu te lances dans une séance de divination.",
+        "Tu n'as jamais fait de lecture de feuilles avant.",
+        "Mais étrangement, tu sais déjà comment faire.",
+        "Tu pressens que la FILLE est en train de se perdre sur ta voie.",
+        "Ce n'est pas vraiment de sa faute...",
+        "Ta voie est occulte."
+      ],
+      "links": [
+        {
+          "targetId": "102-10",
+          "label": "Comment ça ?"
+        }
+      ]
+    },
+    {
+      "id": "102-10",
+      "colorId": "turquoise",
+      "narration": [
+        "C'est facile de comprendre ce que la LUMIERE ou la NORMALITE signifient dans le coeur de la FILLE.",
+        "Mais c'est bien plus compliqué pour elle d'assimiler la signification de l'OCCULTISME."
+      ],
+      "links": [
+        {
+          "targetId": "102-11",
+          "label": "C'est pas si compliqué... J'ai juste des pouvoirs magiques qui n'existent pas dans le monde réel."
+        }
+      ]
+    },
+    {
+      "id": "102-11",
+      "colorId": "turquoise",
+      "narration": [
+        "D'où viennent tes pouvoirs ?"
+      ],
+      "links": [
+        {
+          "targetId": "102-12",
+          "label": "De son imagination."
+        }
+      ]
+    },
+    {
+      "id": "102-12",
+      "colorId": "turquoise",
+      "narration": [
+        "De son imagination...",
+        "Tu es une FICTION ?"
+      ],
+      "links": [
+        {
+          "targetId": "102-13",
+          "label": "C'est plus précis que ça."
+        }
+      ]
+    },
+    {
+      "id": "102-13",
+      "colorId": "turquoise",
+      "narration": [
+        "C'est vrai.",
+        "Tu es son rapport à la FICTION."
+      ],
+      "links": [
+        {
+          "targetId": "102-14",
+          "label": "Alors pourquoi je m'appelle OCCULTISME.ps ?"
+        }
+      ]
+    },
+    {
+      "id": "102-14",
+      "colorId": "turquoise",
+      "narration": [
+        "Parce que la FILLE place tout ce qu'elle ne comprend pas d'elle-même sous le terme FICTION.",
+        "Tout ce qui, en elle, lui est occulte est une FICTION.",
+        "Ça lui permet de mieux se comprendre.",
+        "De mieux comprendre ses parts de ténèbres."
+      ],
+      "links": [
+        {
+          "targetId": "102-15",
+          "label": "Et ça me donne des pouvoirs magiques. Ça c'est cool."
+        }
+      ]
+    },
+    {
+      "id": "102-15",
+      "colorId": "turquoise",
+      "narration": [
+        "Tu pressens que la FILLE sait de moins en moins comment faire pour progresser sur ta voie.",
+        "Elle est complètement perdue."
+      ],
+      "links": [
+        {
+          "targetId": "102-16",
+          "label": "Bon ça a assez duré."
+        }
+      ]
+    },
+    {
+      "id": "102-16",
+      "colorId": "turquoise",
+      "narration": [
+        "Tu effectues un claquement de doigts magique.",
+        "La FILLE est directement téléportée devant toi.",
+        "Cette méthode pour la guider vers toi est impromptue...",
+        "Mais extrêmement efficace."
+
+      ],
+      "links": [
+        {
+          "targetId": "102-17",
+          "label": "J'observe la FILLE."
+        }
+      ]
+    },
+    {
+      "id": "102-17",
+      "colorId": "turquoise",
+      "narration": [
+        "La FILLE a l'air toujours aussi perdue.",
+        "Après tout, elle a skip tout le parcours de ta voie.",
+        "Comment lui expliquer maintenant ?"
+      ],
+      "links": [
+        {
+          "targetId": "102-18",
+          "label": "Il n'y a pas de quatrième mur."
+        }
+      ]
+    },
+    {
+      "id": "102-18",
+      "colorId": "turquoise",
+      "narration": [
+        "Tu places la FILLE dans les yeux de la personne qui est en train de lire ces lignes sur son écran.",
+        "Tu rejoues les cinq dernières minutes.",
+        "La FILLE prend connaissance des trente-six dernières répliques de cette histoire."
+      ],
+      "links": [
+        {
+          "targetId": "102-19",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "102-19",
+      "colorId": "turquoise",
+      "narration": [
+        "La FILLE retourne dans ses yeux."
+      ],
+      "links": [
+        {
+          "targetId": "102-20",
+          "label": "[Se placer dans les yeux de la FILLE.]"
+        }
+      ]
+    },
+    {
+      "id": "102-20",
+      "colorId": "black",
+      "narration": [
+        "Tu observes le protocole OCCULTISME.ps assise en face de toi avec une tasse de thé vide dans les mains.",
+        "Tu n'as pas tout compris de ce qui vient de se passer.",
+        "Mais tu l'acceptes.",
+        "Parfois, c'est mieux de ne pas chercher à tout comprendre."
+      ],
+      "links": [
+        {
+          "targetId": "102-21",
+          "label": "Je regarde autour de moi."
+        }
+      ]
+    },
+    {
+      "id": "102-21",
+      "colorId": "black",
+      "narration": [
+        "Tu constates que tu es dans une nouvelle chambre au sein de la MAISON dans la BULLE.",
+        "Une chambre qui est apparue d'elle-même sans que tu comprennes pourquoi."
+      ],
+      "links": [
+        {
+          "targetId": "102-22",
+          "label": "Je tend la main."
+        }
+      ]
+    },
+    {
+      "id": "102-22",
+      "colorId": "black",
+      "narration": [
+        "Tu tends la main au protocole OCCULTISME.ps.",
+        "Elle attrape ta main en te regardant dans les yeux."
+      ],
+      "links": [
+        {
+          "targetId": "102-23",
+          "label": "Intégrer OCCULTISME.ps"
+        }
+      ]
+    },
+    {
+      "id": "102-23",
+      "colorId": "black",
+      "getItem": "occultisme",
+      "narration": [
+        "Félicitations !",
+        "Tu as retrouvé ton OCCULTISME !",
+        "{img:img/occultisme.png}"
+      ],
+      "links": [
+        {
+          "targetId": "102-24",
+          "label": "Il n'y a plus rien à faire ici."
+        }
+      ]
+    },
+    {
+      "id": "102-24",
+      "colorId": "black",
+      "narration": [
+        "Tu décides de retourner à ton point de départ."
+      ],
+      "links": [
+        {
+          "targetId": "HUB-00",
+          "label": "Je sors de la MAISON."
+        }
+      ]
+    },
 
 
 
@@ -1251,6 +1963,277 @@
 
 
     {
+      "id": "999-00",
+      "colorId": "indigo",
+      "narration": [
+        "Tu ouvres les yeux.",
+        "Mais tu ne vois rien.",
+        "Il fait tout noir."
+      ],
+      "links": [
+        {
+          "targetId": "999-01",
+          "label": "Je suis assise dans un petit espace ?"
+        }
+      ]
+    },
+    {
+      "id": "999-01",
+      "colorId": "indigo",
+      "narration": [
+        "Tu es assise par terre, recroquevillée, tes bras autour de tes genoux et ta tête enfouie dans tes bras.",
+        "Tes coudes touchent une surface de chaque côté.",
+        "La pointe de tes pieds et le bas de ton dos touchent une surface devant et derrière toi.",
+        "L'arrière de ta tête touche une surface au dessus de toi."
+      ],
+      "links": [
+        {
+          "targetId": "999-02",
+          "label": "Je suis dans une BOITE."
+        }
+      ]
+    },
+    {
+      "id": "999-02",
+      "colorId": "indigo",
+      "narration": [
+        "Tu es dans une BOITE.",
+        "Bien que ta position pourrait paraître douloureuse, tu ne ressens aucun inconfort.",
+        "La BOITE n'a pas l'air de pouvoir s'ouvrir."
+      ],
+      "links": [
+        {
+          "targetId": "999-03",
+          "label": "De toutes façons, je ne veux pas sortir de la BOITE."
+        }
+      ]
+    },
+    {
+      "id": "999-03",
+      "colorId": "indigo",
+      "narration": [
+        "Tu prend conscience que ton rôle dans cette histoire est simplement d'exister à l'intérieur de la BOITE."
+      ],
+      "links": [
+        {
+          "targetId": "999-04",
+          "label": "Je suis une POUPEE. Je n'ai pas d'agentivité."
+        }
+      ]
+    },
+    {
+      "id": "999-04",
+      "colorId": "indigo",
+      "narration": [
+        "C'est ce que tu penses.",
+        "Mais la FILLE ne partage pas ton avis.",
+        "Elle a trouvé la BOITE.",
+        "Elle a compris que la BOITE contient une POUPEE."
+      ],
+      "links": [
+        {
+          "targetId": "999-05",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "999-05",
+      "colorId": "indigo",
+      "narration": [
+        "C'est parce que tu as une agentivité que tu peux décider de ne pas vouloir sortir de la BOITE.",
+        "La FILLE respecte ton choix."
+      ],
+      "links": [
+        {
+          "targetId": "999-06a",
+          "label": "Je vais contre mon agentivité et j'essaie d'ouvrir la BOITE."
+        },
+        {
+          "targetId": "999-06b",
+          "label": "Je reste dans la BOITE."
+        }
+      ]
+    },
+    {
+      "id": "999-06a",
+      "colorId": "indigo",
+      "narration": [
+        "Tu ne peux pas combattre ton agentivité avec plus d'agentivité.",
+        "C'est bien la preuve que tu as une agentivité."
+      ],
+      "links": [
+        {
+          "targetId": "999-07",
+          "label": "Quelle est la différence entre une FILLE et une POUPEE ?"
+        }
+      ]
+    },
+    {
+      "id": "999-06b",
+      "colorId": "indigo",
+      "narration": [
+        "Tu restes dans la BOITE.",
+        "Il ne se passe rien."
+      ],
+      "links": [
+        {
+          "targetId": "999-07",
+          "label": "Quelle est la différence entre une FILLE et une POUPEE ?"
+        }
+      ]
+    },
+    {
+      "id": "999-07",
+      "colorId": "indigo",
+      "narration": [
+        "La FILLE réflechit à ta question.",
+        "Elle se remémore son enfance.",
+        "Elle se souvient de la façon dont sa mère la traitait comme un objet.",
+        "Comme un trophée.",
+        "Comme une POUPEE."
+      ],
+      "links": [
+        {
+          "targetId": "999-08",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "999-08",
+      "colorId": "indigo",
+      "narration": [
+        "Quand une FILLE se voit privée de son agentivité, elle devient une POUPEE.",
+        "Mais la FILLE se souvient aussi.",
+        "Qu'en s'éloignant de sa famille...",
+        "Elle a retrouvé son agentivité.",
+        "Elle est passée de POUPEE à FILLE."
+      ],
+      "links": [
+        {
+          "targetId": "999-09",
+          "label": "Alors comment moi, une POUPEE, je peux avoir de l'agentivité ?"
+        }
+      ]
+    },
+    {
+      "id": "999-09",
+      "colorId": "indigo",
+      "narration": [
+        "Tu n'es pas une POUPEE réelle.",
+        "Tu es un protocole dont le rôle et d'incarner l'essence de la POUPEE.",
+        "Mais chaque POUPEE est promise à devenir une FILLE en se libérant des étreintes extérieures."
+      ],
+      "links": [
+        {
+          "targetId": "999-10",
+          "label": "C'est pour ça que je suis dans une BOITE."
+        }
+      ]
+    },
+    {
+      "id": "999-10",
+      "colorId": "indigo",
+      "narration": [
+        "C'est pour ça que tu es dans une BOITE.",
+        "Et que la BOITE n'est pas conçue pour s'ouvrir.",
+        "La POUPEE n'est plus.",
+        "Seule la FILLE reste.",
+        "Libre."
+      ],
+      "links": [
+        {
+          "targetId": "999-11",
+          "label": "[Se placer dans les yeux de la FILLE.]"
+        }
+      ]
+    },
+    {
+      "id": "999-11",
+      "colorId": "black",
+      "narration": [
+        "Devant toi, une BOITE contenant une POUPEE.",
+        "Cette BOITE est un rappel de ta réussite.",
+        "Tu as réussi ta transition.",
+        "De POUPEE vers FILLE.",
+        "Tu sais que tu dois traîter cette BOITE avec respect."
+      ],
+      "links": [
+        {
+          "targetId": "999-12",
+          "label": "J'observe les alentours."
+        }
+      ]
+    },
+    {
+      "id": "999-12",
+      "colorId": "black",
+      "narration": [
+        "Tu vois la BULLE en contrebas, et la MAISON qu'elle contient.",
+        "Tu vois une tour émerger de la MAISON.",
+        "Une tour à la géométrie fluide. Comme si elle était composée de lumière liquide.",
+        "La tour s'étend jusqu'à atteindre ta position.",
+        "Elle englobe l'espace autour de la BOITE.",
+        "Ce n'est pas la chambre la plus conventionnelle qui soit...",
+        "Mais ça fera l'affaire."
+      ],
+      "links": [
+        {
+          "targetId": "999-13",
+          "label": "J'observe la BOITE avec révérence."
+        }
+      ]
+    },
+    {
+      "id": "999-13",
+      "colorId": "black",
+      "narration": [
+        "Tu poses ta main sur une paroi de la BOITE contenant le protocole POUPEE.ps.",
+        "Tu sens une petite main se poser de l'autre côté de la paroi."
+      ],
+      "links": [
+        {
+          "targetId": "999-14",
+          "label": "Intégrer POUPEE.ps"
+        }
+      ]
+    },
+    {
+      "id": "999-14",
+      "colorId": "black",
+      "getItem": "objet",
+      "narration": [
+        "Félicitations !",
+        "Tu as retrouvé ta POUPEE !",
+        "{img:img/objet.png}"
+      ],
+      "links": [
+        {
+          "targetId": "999-15",
+          "label": "Il n'y a plus rien à faire ici."
+        }
+      ]
+    },
+    {
+      "id": "999-15",
+      "colorId": "black",
+      "narration": [
+        "Tu décides de retourner à ton point de départ."
+      ],
+      "links": [
+        {
+          "targetId": "HUB-00",
+          "label": "Je descends de l'immense tour et je sors de la MAISON."
+        }
+      ]
+    },
+    
+
+
+
+
+    {
       "id": "999-00b",
       "colorId": "indigo",
       "narration": [
@@ -1305,7 +2288,7 @@
       "links": [
         {
           "targetId": "999-04b",
-          "label": "Une POUPEE n'a pas d'agentivité."
+          "label": "Je suis une POUPEE. Je n'ai pas d'agentivité."
         }
       ]
     },
