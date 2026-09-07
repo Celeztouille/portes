@@ -55,7 +55,7 @@
         "Est-ce que ça a un sens métaphorique ?",
         "Ou est-ce juste une possibilité absurde de cette histoire ?",
         "Tu ne devrais pas trop y réfléchir.",
-        "Après tout… Pourquoi serait-ce impossible d'ouvrir une porte déjà ouverte ? Ou d'allumer une lumière déjà allumée ?"
+        "Après tout... Pourquoi serait-ce impossible d'ouvrir une porte déjà ouverte ? Ou d'allumer une lumière déjà allumée ?"
       ],
       "links": [
         {
@@ -315,7 +315,7 @@
       "id": "HUB-00",
       "colorId": "white",
       "narration": [
-        "Neuf portes."
+        " Neuf portes."
       ],
       "links": [],
       "images": [
@@ -1257,6 +1257,538 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "id": "013-00",
+      "colorId": "azur",
+      "narration": [
+        "Tu ouvres les yeux.",
+        "Te voilà seule, sur un lit, dans une chambre en ruines qui a l'air de faire partie d'une grande structure toute autant en ruines."
+      ],
+      "links": [
+        {
+          "targetId": "013-01",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "013-01",
+      "colorId": "azur",
+      "narration": [
+        "En face de toi, une immense CREATURE monstrueuse te regarde, immobile, droit dans tes pupilles.",
+        "Une CREATURE faite d'un amalgame de centaines d'yeux et de dizaines de mains."
+      ],
+      "links": [
+        {
+          "targetId": "013-02",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "013-02",
+      "colorId": "azur",
+      "narration": [
+        "Des yeux qui dévorent ton corps du regard."
+      ],
+      "links": [
+        {
+          "targetId": "013-03",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "013-03",
+      "colorId": "azur",
+      "narration": [
+        "Des mains qui n'attendent que de forcer le contact sur ton corps."
+      ],
+      "links": [
+        {
+          "targetId": "013-04",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "013-04",
+      "colorId": "azur",
+      "narration": [
+        "Quelque chose de terrible va arriver.",
+        "Que faire ?"
+      ],
+      "links": [
+        {
+          "targetId": "013-05",
+          "label": "Je ne bouge pas."
+        }
+      ]
+    },
+    {
+      "id": "013-05",
+      "colorId": "azur",
+      "narration": [
+        "La CREATURE ne bouge pas.",
+        "Tu observes la CREATURE.",
+        "Elle t’observe en retour, immobile."
+      ],
+      "links": [
+        {
+          "targetId": "013-06",
+          "label": "Je m’approche de la CREATURE."
+        }
+      ]
+    },
+    {
+      "id": "013-06",
+      "colorId": "azur",
+      "narration": [
+        "Tu te places à portée de la CREATURE.",
+        "Elle n’agit pas.",
+        "Tu te met à croire qu’au fond...",
+        "Elle n’a pas la volonté d’agir contre toi."
+      ],
+      "links": [
+        {
+          "targetId": "013-07",
+          "label": "Ce n’est pas moi qui a peur ! C’est toi !"
+        }
+      ]
+    },
+    {
+      "id": "013-07",
+      "colorId": "azur",
+      "narration": [
+        "La CREATURE essaye de détourner le regard.",
+        "Mais quelque chose l’en empêche.",
+        "Ses yeux restent fixés dans les tiens."
+      ],
+      "links": [
+        {
+          "targetId": "013-08a",
+          "label": "Je laisse la CREATURE prendre possession de mon corps."
+        },
+        {
+          "targetId": "013-08b",
+          "label": "J’observe la CREATURE plus en détail."
+        }
+      ]
+    },
+    {
+      "id": "013-08a",
+      "colorId": "azur",
+      "narration": [
+        "C’est pas évident d’écrire qqch de métaphorique des violences sexuelles.",
+        "Pourquoi t’as choisi cette option ?",
+        "Tu t’attendais à quoi ?",
+        "Je n’irai pas plus loin."
+      ],
+      "links": [
+        {
+          "targetId": "013-08b",
+          "label": "J’observe la CREATURE plus en détail."
+        }
+      ]
+    },
+    {
+      "id": "013-08b",
+      "colorId": "azur",
+      "narration": [
+        "Tu remarques que la CREATURE possède un coeur.",
+        "Tu tends la main vers le coeur de la CREATURE.",
+        "Tu sens soudainement une main attraper la tienne avec force.",
+        "C’est la main de la FILLE.",
+        "Elle est dans la CREATURE."
+      ],
+      "links": [
+        {
+          "targetId": "013-09",
+          "label": "Plonger dans la CREATURE."
+        }
+      ]
+    },
+    {
+      "id": "013-09",
+      "colorId": "azur",
+      "narration": [
+        "Tu rejoins la FILLE à l’intérieur de la CREATURE.",
+        "La FILLE fait une crise de panique.",
+        "Elle est persuadée d’être la CREATURE.",
+        "Elle est persuadée qu’elle voulait te faire du mal."
+      ],
+      "links": [
+        {
+          "targetId": "013-10",
+          "label": "Raisonner la FILLE."
+        }
+      ]
+    },
+    {
+      "id": "013-10",
+      "colorId": "azur",
+      "narration": [
+        "La FILLE ne t’écoute pas.",
+        "Elle est terrorisée."
+      ],
+      "links": [
+        {
+          "targetId": "013-11",
+          "label": "[Se placer dans les yeux de la FILLE.]"
+        }
+      ]
+    },
+    {
+      "id": "013-11",
+      "colorId": "black",
+      "narration": [
+        "\"Tu es un monstre.\"",
+        "\"Ce qu’on t’a fait...\"",
+        "\"Tu vas fatalement le reproduire.\"",
+        "\"Tu ne peux pas briser le cycle de la violence.\""
+      ],
+      "links": [
+        {
+          "targetId": "013-12",
+          "label": "Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre. Je suis un monstre."
+        }
+      ]
+    },
+    {
+      "id": "013-12",
+      "colorId": "black",
+      "narration": [
+        "\"Oui.\"",
+        "\"Tu es dangereuse.\"",
+        "\"Tu devrais mourir.\"",
+        "\"Pour ne pas prendre le risque de faire du mal à quelqu’un d’autre.\""
+      ],
+      "links": [
+        {
+          "targetId": "013-13",
+          "label": "Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. Je veux mourir. "
+        }
+      ]
+    },
+    {
+      "id": "013-13",
+      "colorId": "black",
+      "narration": [
+        "\"Il n’y a aucune autre option.\""
+      ],
+      "links": [
+        {
+          "targetId": "013-14",
+          "label": "[Sortir des yeux de la FILLE.]"
+        }
+      ]
+    },
+    {
+      "id": "013-14",
+      "colorId": "azur",
+      "narration": [
+        "La FILLE est en grand danger."
+      ],
+      "links": [
+        {
+          "targetId": "013-15",
+          "label": "Stase(FILLE) !"
+        }
+      ]
+    },
+    {
+      "id": "013-15",
+      "colorId": "azur",
+      "narration": [
+        "Tu exécutes ta fonction Stase() sur la FILLE.",
+        "De la GLACE indestructible s’échappe de tes doigts.",
+        "La GLACE se cristallise autour de la FILLE.",
+        "La FILLE est immobilisée dans ta GLACE."
+      ],
+      "links": [
+        {
+          "targetId": "013-16",
+          "label": "J’attends un long moment."
+        }
+      ]
+    },
+    {
+      "id": "013-16",
+      "colorId": "azur",
+      "narration": [
+        "Tu attends pendant une période qui semble s’étendre sur plusieurs années.",
+        "A coté du cristal de GLACE contenant la FILLE."
+      ],
+      "links": [
+        {
+          "targetId": "013-17",
+          "label": "J’attends encore."
+        }
+      ]
+    },
+    {
+      "id": "013-17",
+      "colorId": "azur",
+      "narration": [
+        "Après un temps indéterminé, la GLACE se fissure et la FILLE en sort.",
+        "Elle semble s’être calmée.",
+        "Félicitations.",
+        "Tu as préservé la FILLE."
+      ],
+      "links": [
+        {
+          "targetId": "013-18",
+          "label": "J’observe la FILLE."
+        }
+      ]
+    },
+    {
+      "id": "013-18",
+      "colorId": "azur",
+      "narration": [
+        "La FILLE semble étonnée de te voir devant elle.",
+        "Après tout, pour elle aussi, tout cela semblait être il y a des années.",
+        "La FILLE te demande comment tu peux encore être ici alors qu’elle a essayé de te faire du mal."
+      ],
+      "links": [
+        {
+          "targetId": "013-19",
+          "label": "Tu n’as jamais voulu me faire du mal."
+        }
+      ]
+    },
+    {
+      "id": "013-19",
+      "colorId": "azur",
+      "narration": [
+        "La première réaction de la FILLE est de réfuter ce que tu viens de dire.",
+        "Puis elle observe l’environnement autour de vous...",
+        "Et elle se rend compte qu’elle n’est plus au fond de l’abîme.",
+        "Pendant qu’elle était dans ton cristal de GLACE...",
+        "L’abîme autour d’elle s’est peu à peu dissout."
+      ],
+      "links": [
+        {
+          "targetId": "013-20",
+          "label": "J’ai vu ton regard là-bas. J’ai vu le regard de la CREATURE."
+        }
+      ]
+    },
+    {
+      "id": "013-20",
+      "colorId": "azur",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "013-21",
+          "label": "Elle avait peur... Tu avais peur."
+        }
+      ]
+    },
+    {
+      "id": "013-21",
+      "colorId": "azur",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "013-22",
+          "label": "Peur de me faire du mal. Peur de reproduire le cycle."
+        }
+      ]
+    },
+    {
+      "id": "013-22",
+      "colorId": "azur",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "013-23",
+          "label": "Mais même là-bas... Tu avais déjà brisé le cycle de la violence."
+        }
+      ]
+    },
+    {
+      "id": "013-23",
+      "colorId": "azur",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "013-24",
+          "label": "Tout ça... C’était une illusion. Une intrusion."
+        }
+      ]
+    },
+    {
+      "id": "013-24",
+      "colorId": "azur",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "013-25",
+          "label": "Tu n’aurais jamais pu me faire du mal."
+        }
+      ]
+    },
+    {
+      "id": "013-25",
+      "colorId": "azur",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "013-26",
+          "label": "La seule personne que tu aurais pu blesser là-bas... C’est toi."
+        }
+      ]
+    },
+    {
+      "id": "013-26",
+      "colorId": "azur",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "013-27",
+          "label": "Mais regarde-toi ! Tu as survécu !"
+        },
+        {
+          "targetId": "013-27",
+          "label": "Mais regarde-nous ! Nous avons survécu !"
+        }
+      ]
+    },
+    {
+      "id": "013-27",
+      "colorId": "azur",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "013-28",
+          "label": "Tu as mis ton coeur dans une armure de GLACE."
+        },
+        {
+          "targetId": "013-28",
+          "label": "Et regarde comme cette armure te rend brillante aujourd’hui !"
+        }
+      ]
+    },
+    {
+      "id": "013-28",
+      "colorId": "azur",
+      "narration": [
+        "C’est fini maintenant."
+      ],
+      "links": [
+        {
+          "targetId": "013-29",
+          "label": "[Se placer dans les yeux de la FILLE.]"
+        }
+      ]
+    },
+    {
+      "id": "013-29",
+      "colorId": "black",
+      "narration": [
+        "En face de toi, le protocole RESILIENCE.ps t’observe avec des yeux de la couleur du blizzard.",
+        "Un sourire immobile.",
+        "Et une main tendue vers ton coeur.",
+        "Une main de GLACE.",
+        "La GLACE qui préserve.",
+        "La GLACE qui protège."
+      ],
+      "links": [
+        {
+          "targetId": "013-30",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "013-30",
+      "colorId": "black",
+      "narration": [
+        "Tu frissonnes en la regardant.",
+        "Tu n’avais jamais réalisé à quel point...",
+        "La GLACE pouvait être aussi belle."
+      ],
+      "links": [
+        {
+          "targetId": "013-31",
+          "label": "Sortons d’ici."
+        }
+      ]
+    },
+    {
+      "id": "013-31",
+      "colorId": "black",
+      "narration": [
+        "Vous vous dirigez dans la MAISON.",
+        "Le protocole RESILIENCE.ps exécute sa fonction Cristallisation().",
+        "Des murs de GLACE se matérialisent.",
+        "Le protocole RESILIENCE.ps te sourit, fière de sa nouvelle chambre.",
+        "Le sourire qu’elle a toujours eu."
+      ],
+      "links": [
+        {
+          "targetId": "013-32",
+          "label": "Intégrer RESILIENCE.ps"
+        }
+      ]
+    },
+    {
+      "id": "013-32",
+      "colorId": "black",
+      "getItem": "resilience",
+      "narration": [
+        "Félicitations !",
+        "Tu as retrouvé ta RESILIENCE !",
+        "{img:img/resilience.png}"
+      ],
+      "links": [
+        {
+          "targetId": "013-33",
+          "label": "Il n'y a plus rien à faire ici."
+        }
+      ]
+    },
+    {
+      "id": "013-33",
+      "colorId": "black",
+      "narration": [
+        "Tu décides de partir explorer une nouvelle voie."
+      ],
+      "links": [
+        {
+          "targetId": "HUB-00",
+          "label": "Je retourne aux portes."
+        }
+      ]
+    },
 
 
 
@@ -2470,7 +3002,409 @@
           "label": "Laissons la FILLE explorer d'autres voies."
         }
       ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+      {
+      "id": "107-00",
+      "colorId": "magenta",
+      "narration": [
+        "Tu ouvres les yeux.",
+        "Devant toi se trouve un MIROIR.",
+        "Tu t'en approches.",
+        "Mais tu ne vois pas ton reflet."
+      ],
+      "links": [
+        {
+          "targetId": "107-01",
+          "label": "Je n'ai pas besoin de reflet. Je sais déjà à quoi je ressemble."
+        }
+      ]
+    },
+    {
+      "id": "107-01",
+      "colorId": "magenta",
+      "narration": [
+        "En effet.",
+        "Tu sais déjà que tu es quasiment la FILLE.",
+        "Tu sais que la FILLE est ton reflet."
+      ],
+      "links": [
+        {
+          "targetId": "107-02",
+          "label": "C'est faux."
+        }
+      ]
+    },
+    {
+      "id": "107-02",
+      "colorId": "magenta",
+      "narration": [
+        "Comment ça c'est faux ?"
+      ],
+      "links": [
+        {
+          "targetId": "107-03",
+          "label": "La FILLE n'est pas mon reflet. Je suis le reflet de la FILLE."
+        }
+      ]
+    },
+    {
+      "id": "107-03",
+      "colorId": "magenta",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "107-04",
+          "label": "Plus précisément, je suis le reflet d'une partie de la FILLE."
+        }
+      ]
+    },
+    {
+      "id": "107-04",
+      "colorId": "magenta",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "107-05",
+          "label": "Ce MIROIR est un portail qui donne sur une pièce de la MAISON."
+        }
+      ]
+    },
+    {
+      "id": "107-05",
+      "colorId": "magenta",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "107-06",
+          "label": "Une pièce vide que la FILLE vient de finir de construire."
+        }
+      ]
+    },
+    {
+      "id": "107-06",
+      "colorId": "magenta",
+      "narration": [
+        "La FILLE entre dans la pièce et s'approche du MIROIR."
+      ],
+      "links": [
+        {
+          "targetId": "107-07",
+          "label": "De l'autre côté du MIROIR, j'imite ses mouvements."
+        }
+      ]
+    },
+    {
+      "id": "107-07",
+      "colorId": "magenta",
+      "narration": [
+        "La FILLE te regarde à travers le MIROIR."
+      ],
+      "links": [
+        {
+          "targetId": "107-08",
+          "label": "Je sors du MIROIR."
+        }
+      ]
+    },
+    {
+      "id": "107-08",
+      "colorId": "magenta",
+      "narration": [
+        "Te voilà en face de la FILLE.",
+        "Elle reconnaît que tu es son reflet.",
+        "Mais pas entièrement."
+      ],
+      "links": [
+        {
+          "targetId": "107-09",
+          "label": "Seulement la moitié."
+        }
+      ]
+    },
+    {
+      "id": "107-09",
+      "colorId": "magenta",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "107-10",
+          "label": "La moitié parfaite."
+        }
+      ]
+    },
+    {
+      "id": "107-10",
+      "colorId": "magenta",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "107-11",
+          "label": "La FILLE qu'elle aurait pu être si elle n'avait pas grandi en étant souillée."
+        }
+      ]
+    },
+    {
+      "id": "107-11",
+      "colorId": "magenta",
+      "narration": [
+        "Alors tu considères que la FILLE ne pourra jamais être parfaite ?",
+        "Simplement parce qu'on lui a injecté du poison ?"
+      ],
+      "links": [
+        {
+          "targetId": "107-12",
+          "label": "Oui."
+        }
+      ]
+    },
+    {
+      "id": "107-12",
+      "colorId": "magenta",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "107-13",
+          "label": "Pourquoi chercher la perfection ?"
+        }
+      ]
+    },
+    {
+      "id": "107-13",
+      "colorId": "magenta",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "107-14",
+          "label": "Engage-toi dans la voie de la perfection, tu t'y perdras et tu n'atteindras jamais ton but. Car c'est inatteignable."
+        }
+      ]
+    },
+    {
+      "id": "107-14",
+      "colorId": "magenta",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "107-15",
+          "label": "Tu es déjà meilleure que moi par ailleurs."
+        }
+      ]
+    },
+    {
+      "id": "107-15",
+      "colorId": "magenta",
+      "narration": [
+        "La FILLE te demande pourquoi elle serait meilleure qu'une version parfaite d'elle."
+      ],
+      "links": [
+        {
+          "targetId": "107-16",
+          "label": "Parce que je suis incomplète."
+        }
+      ]
+    },
+    {
+      "id": "107-16",
+      "colorId": "magenta",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "107-17",
+          "label": "Tu es la version de toi qui a souffert."
+        }
+      ]
+    },
+    {
+      "id": "107-17",
+      "colorId": "magenta",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "107-18",
+          "label": "Mais la toi potentielle qui n'aurait jamais souffert n'a pas été tuée."
+        }
+      ]
+    },
+    {
+      "id": "107-18",
+      "colorId": "magenta",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "107-19",
+          "label": "Elle existe encore en toi."
+        }
+      ]
+    },
+    {
+      "id": "107-19",
+      "colorId": "magenta",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "107-20",
+          "label": "C'est moi !"
+        }
+      ]
+    },
+    {
+      "id": "107-20",
+      "colorId": "magenta",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "107-21",
+          "label": "Tu es complète."
+        }
+      ]
+    },
+    {
+      "id": "107-21",
+      "colorId": "magenta",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "107-22",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "107-22",
+      "colorId": "magenta",
+      "narration": [
+        "Tu prends la FILLE dans tes bras.",
+        "Son rythme cardiaque ralentit.",
+        "Elle ferme les yeux."
+      ],
+      "links": [
+        {
+          "targetId": "107-23",
+          "label": "[Se placer dans les yeux de la FILLE.]"
+        }
+      ]
+    },
+    {
+      "id": "107-23",
+      "colorId": "white",
+      "narration": [
+        "Tu ouvres les yeux.",
+        "Tu es dans les bras d'un protocole qui est quasiment toi.",
+        "Mais pas entièrement toi."
+      ],
+      "links": [
+        {
+          "targetId": "107-24",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "107-24",
+      "colorId": "white",
+      "narration": [
+        "Tu prends conscience que la pensée",
+        "\"J'aurai aimé que rien de tout ça ne m'arrive.\"",
+        "est absurde.",
+        "Ça t'es arrivé.",
+        "Tu ne peux pas revenir en arrière.",
+        "Et pourtant.",
+        "La personne que tu aurais été si rien de tout ça ne t'était arrivé...",
+        "Existe aussi.",
+        "C'est aussi toi.",
+        "Tu es les deux."
+      ],
+      "links": [
+        {
+          "targetId": "107-25",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "107-25",
+      "colorId": "white",
+      "narration": [
+        "Tu te sens emplie d'une sérénité nouvelle.",
+        "Tu resserres ton étreinte sur le protocole QUASI-EGO.ps.",
+        "Elle te serre en retour."
+      ],
+      "links": [
+        {
+          "targetId": "107-26",
+          "label": "Intégrer QUASI-EGO.ps"
+        }
+      ]
+    },
+    {
+      "id": "107-26",
+      "colorId": "white",
+      "getItem": "creation",
+      "narration": [
+        "Félicitations !",
+        "Tu es retrouvé ton QUASI-EGO !",
+        "{img:img/creation.png}"
+      ],
+      "links": [
+        {
+          "targetId": "107-27",
+          "label": "Il n'y a plus rien à faire ici."
+        }
+      ]
+    },
+    {
+      "id": "107-27",
+      "colorId": "white",
+      "narration": [
+        "Tu décides de partir explorer une nouvelle voie."
+      ],
+      "links": [
+        {
+          "targetId": "HUB-00",
+          "label": "Je retourne aux portes."
+        }
+      ]
     }
+    
 
 
 

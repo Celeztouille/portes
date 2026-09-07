@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let isButtonsDisplayed = false;
 
     let isFirstNode = true; 
-    const firstNode = "000-17";
+    const firstNode = "013-00";
 
     let historyStack = []; 
 
