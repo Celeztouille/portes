@@ -3,11 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Une histoire interactive web">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <meta name="description" content="Portes">
     <title>Portes</title>
+
+    <meta property="og:title" content="Portes">
+    <meta property="og:description" content="Une fille trouve des portes dans un espace imaginaire.">
+    <meta property="og:type" content="website">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div id="title-screen" class="title-screen">
+        <div class="title-content">
+            <img src="img/door108.png" alt="Portes" class="title-image">
+            <h1 class="title-main">PORTES</h1>
+
+            <div id="title-buttons" class="title-buttons">
+            </div>
+        </div>
+    </div>
+
+    <div id="confirm-popup" class="popup-overlay">
+        <div class="popup-content">
+            <p class="popup-text">Cela va effacer toute ta progression. Continuer ?</p>
+            <div class="popup-actions">
+                <button id="btn-confirm-yes" class="popup-btn yes">>> Oui</button>
+                <button id="btn-confirm-no" class="popup-btn no">>> Non</button>
+            </div>
+        </div>
+    </div>
+
 
     <button id="btn-prev" class="nav-btn" style="display: none;">&lt;&lt; Précédent</button>
 
@@ -27,12 +54,12 @@
     <main class="story-container">
             
         <div class="scene">
-            <p class="narration">Ceci est un exemple de paragraphe de narration. Le style par défaut est conçu pour une lecture fluide.</p>
+            <p class="narration"></p>
         </div>
 
         <div class="choices">
-            <button class="choice-btn">Option 1 : Continuer tout droit</button>
-            <button class="choice-btn">Option 2 : Examiner l'objet</button>
+            <button class="choice-btn"></button>
+            <button class="choice-btn"></button>
         </div>
     </main>
 

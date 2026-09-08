@@ -302,7 +302,7 @@
       "id": "000-18",
       "colorId": "white",
       "narration": [
-        "Dans l'espace qui semble être le jardin de la MAISON, tu remarques que des portes sont apparus pendant que tu \"explorais\" l'intérieur."
+        "Dans l'espace qui semble être le jardin de la MAISON, tu remarques que des portes sont apparues pendant que tu \"explorais\" l'intérieur."
       ],
       "links": [
         {
@@ -729,7 +729,7 @@
       "id": "001-18",
       "colorId": "white",
       "narration": [
-        "Tu tend la main au protocole LUMIERE.ps en face de toi, debout devant sa toute nouvelle chambre.",
+        "Tu tends la main au protocole LUMIERE.ps en face de toi, debout devant sa toute nouvelle chambre.",
         "Elle attrape ta main en te regardant dans les yeux."
       ],
       "links": [
@@ -854,7 +854,7 @@
       "id": "002-05",
       "colorId": "purple",
       "narration": [
-        "Devant vous, un chemin se dessine au milieu de TENEBRES.",
+        "Devant vous, un chemin se dessine au milieu des TENEBRES.",
         "C'est ta voie."
       ],
       "links": [
@@ -1167,6 +1167,508 @@
 
 
 
+    {
+      "id": "003-00",
+      "colorId": "grey",
+      "narration": [
+        "Tu ouvres les yeux.",
+        "Chargement en cours...",
+        "Initialisation.",
+        "Devant toi se trouve une porte."
+      ],
+      "links": [
+        {
+          "targetId": "003-01",
+          "label": "J'ouvre la porte."
+        }
+      ]
+    },
+    {
+      "id": "003-01",
+      "colorId": "grey",
+      "narration": [
+        "Tu ouvres la porte."
+      ],
+      "links": [
+        {
+          "targetId": "003-02",
+          "label": "J'entre."
+        }
+      ]
+    },
+    {
+      "id": "003-02",
+      "colorId": "grey",
+      "narration": [
+        "Tu entres dans un nouvel espace.",
+        "Devant toi se trouve une infinité de portes.",
+        "Alignées dans toutes les directions à la fois.",
+        "Mais chacune d'entre elles, aussi distante soit elle, est à ta portée."
+      ],
+      "links": [
+        {
+          "targetId": "003-03",
+          "label": "Je choisis une porte au hasard."
+        },
+        {
+          "targetId": "003-04",
+          "label": "Je fais demi-tour et reviens à mon point de départ."
+        }
+      ]
+    },
+    {
+      "id": "003-03",
+      "colorId": "grey",
+      "narration": [
+        "Tu ouvres une porte aléatoire."
+      ],
+      "links": [
+        {
+          "targetId": "003-05",
+          "label": "J'entre par cette porte."
+        }
+      ]
+    },
+    {
+      "id": "003-04",
+      "colorId": "grey",
+      "narration": [
+        "Tu décides de rebrousser chemin."
+      ],
+      "links": [
+        {
+          "targetId": "HUB-00",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "003-05",
+      "colorId": "grey",
+      "narration": [
+        "Tu entres dans un nouvel espace.",
+        "Devant toi se trouve une infinité de portes.",
+        "Alignées dans toutes les directions à la fois.",
+        "Mais chacune d'entre elles, aussi distante soit elle, est à ta portée."
+      ],
+      "links": [
+        {
+          "targetId": "003-06",
+          "label": "Je choisis une porte au hasard."
+        },
+        {
+          "targetId": "003-04",
+          "label": "Je fais demi-tour et reviens à mon point de départ."
+        }
+      ]
+    },
+    {
+      "id": "003-06",
+      "colorId": "grey",
+      "narration": [
+        "Tu ouvres une porte aléatoire."
+      ],
+      "links": [
+        {
+          "targetId": "003-07",
+          "label": "J'entre par cette porte."
+        }
+      ]
+    },
+    {
+      "id": "003-07",
+      "colorId": "grey",
+      "narration": [
+        "Tu entres dans un nouvel espace.",
+        "Devant toi se trouve une infinité de portes.",
+        "Alignées dans toutes les directions à la fois.",
+        "Mais chacune d'entre elles, aussi distante soit elle, est à ta portée."
+      ],
+      "links": [
+        {
+          "targetId": "003-08",
+          "label": "Je choisis une porte au hasard."
+        },
+        {
+          "targetId": "003-04",
+          "label": "Je fais demi-tour et reviens à mon point de départ."
+        }
+      ]
+    },
+    {
+      "id": "003-08",
+      "colorId": "grey",
+      "narration": [
+        "Tu ouvres une porte aléatoire."
+      ],
+      "links": [
+        {
+          "targetId": "003-09",
+          "label": "J'entre par cette porte."
+        }
+      ]
+    },
+    {
+      "id": "003-09",
+      "colorId": "grey",
+      "narration": [
+        "Tu entres dans un nouvel espace.",
+        "Devant toi se trouve une infinité de portes.",
+        "Alignées dans toutes les directions à la fois.",
+        "Mais chacune d'entre elles, aussi distante soit elle, est à ta portée."
+      ],
+      "links": [
+        {
+          "targetId": "003-08",
+          "label": "Je choisis une porte au hasard."
+        },
+        {
+          "targetId": "003-04",
+          "label": "Je fais demi-tour et reviens à mon point de départ."
+        },
+        {
+          "targetId": "003-10",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "003-10",
+      "colorId": "grey",
+      "narration": [
+        "Tu inspires un grand coup.",
+        "...",
+        "...",
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "003-11",
+          "label": "J'OUVRE TOUTES LES PORTES EN MÊME TEMPS !!!"
+        }
+      ]
+    },
+    {
+      "id": "003-11",
+      "colorId": "grey",
+      "narration": [
+        "L'infinité de portes s'ouvre devant toi.",
+        "Derrière chaque porte se trouve une FILLE.",
+        "Tu te retrouves face à une infinité de FILLES, toutes différentes."
+      ],
+      "links": [
+        {
+          "targetId": "003-12",
+          "label": "J'observe les FILLES."
+        }
+      ]
+    },
+    {
+      "id": "003-12",
+      "colorId": "grey",
+      "narration": [
+        "Parmi toutes ces FILLES, tu cherches la FILLE.",
+        "Celle qui est arrivée dans la BULLE, qui reconstruit la MAISON et qui a ouvert ta porte."
+      ],
+      "links": [
+        {
+          "targetId": "003-13",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "003-13",
+      "colorId": "grey",
+      "narration": [
+        "...",
+        "Tu réalises que la FILLE est chaque FILLE de cette infinité de FILLES.",
+        "La FILLE apparaît devant toi.",
+        "Elle observe avec toi cette infinité."
+      ],
+      "links": [
+        {
+          "targetId": "003-14",
+          "label": "Toutes ces FILLES sont un potentiel."
+        }
+      ]
+    },
+    {
+      "id": "003-14",
+      "colorId": "grey",
+      "narration": [
+        "La FILLE réfléchit au mot \"potentiel\"."
+      ],
+      "links": [
+        {
+          "targetId": "003-15",
+          "label": "C'est une visualisation du futur."
+        }
+      ]
+    },
+    {
+      "id": "003-15",
+      "colorId": "grey",
+      "narration": [
+        "Le futur...",
+        "Comme si... la FILLE pouvait évoluer pour devenir l'une de ces potentielles FILLES ?",
+        "Et que ce potentiel est infini ?"
+      ],
+      "links": [
+        {
+          "targetId": "003-16",
+          "label": "Ce n'est pas simplement une question d'identité."
+        }
+      ]
+    },
+    {
+      "id": "003-16",
+      "colorId": "grey",
+      "narration": [
+        "Ce n'est pas simplement une question d'identité.",
+        "Ça n'aurait pas de sens.",
+        "Après tout, la FILLE est la FILLE.",
+        "L'infinité de FILLES devant vous, elles ne sont pas la FILLE. Elles sont d'autres FILLES.",
+        "Alors quel est ce potentiel ?"
+      ],
+      "links": [
+        {
+          "targetId": "003-17",
+          "label": "L'amour."
+        }
+      ]
+    },
+    {
+      "id": "003-17",
+      "colorId": "grey",
+      "narration": [
+        "L'amour ?",
+        "L'amour pour les FILLES ?",
+        "...",
+        "Le lesbianisme ?"
+      ],
+      "links": [
+        {
+          "targetId": "003-18",
+          "label": "Non."
+        }
+      ]
+    },
+    {
+      "id": "003-18",
+      "colorId": "grey",
+      "narration": [
+        "Non.",
+        "Le lesbianisme, c'est autre chose, c'est romantique.",
+        "Ici il n'est pas question de romance.",
+        "Mais d'amour.",
+        "Une forme primaire d'amour.",
+        "Un amour qui précède ses qualificatifs usuels."
+      ],
+      "links": [
+        {
+          "targetId": "003-19",
+          "label": "Tu aimes simplement les FILLES."
+        }
+      ]
+    },
+    {
+      "id": "003-19",
+      "colorId": "grey",
+      "narration": [
+        "La FILLE te demande :",
+        "\"J'aime quelles FILLES, au juste ?\"",
+        "Tu lui réponds :"
+      ],
+      "links": [
+        {
+          "targetId": "003-20",
+          "label": "Toutes."
+        }
+      ]
+    },
+    {
+      "id": "003-20",
+      "colorId": "grey",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "003-21",
+          "label": "Celles que tu connais, et celles que tu ne connais pas."
+        }
+      ]
+    },
+    {
+      "id": "003-21",
+      "colorId": "grey",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "003-22",
+          "label": "Celles qui ont existé, et celles qui n'existent pas encore."
+        }
+      ]
+    },
+    {
+      "id": "003-22",
+      "colorId": "grey",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "003-23",
+          "label": "Voilà ce qu'est ton futur : un ciel étoilé."
+        }
+      ]
+    },
+    {
+      "id": "003-23",
+      "colorId": "grey",
+      "narration": [
+        "La FILLE lève les yeux vers le \"ciel\".",
+        "\"Une infinité de petites étoiles scintillantes.\"",
+        "\"Et je les aime toutes.\""
+      ],
+      "links": [
+        {
+          "targetId": "003-24",
+          "label": "En un sens..."
+        }
+      ]
+    },
+    {
+      "id": "003-24",
+      "colorId": "grey",
+      "narration": [
+        "En un sens...",
+        "La FILLE est ce qu'elle aime.",
+        "Une FILLE.",
+        "La plus simple définition de son identité."
+      ],
+      "links": [
+        {
+          "targetId": "003-25",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "003-25",
+      "colorId": "grey",
+      "narration": [
+        "Sans encore trop comprendre ce que signifie le mot \"amour\"...",
+        "La FILLE te remercie.",
+        "Car maintenant, elle sait qui elle est.",
+        "Et ce que l'avenir lui réserve."
+      ],
+      "links": [
+        {
+          "targetId": "003-26",
+          "label": "Je pense à ma chambre."
+        }
+      ]
+    },
+    {
+      "id": "003-26",
+      "colorId": "grey",
+      "narration": [
+        "Au sein de la MAISON, ta chambre est un espace constitué d'une infinité de portes alignées dans toutes les directions à la fois.",
+        "Cela te convient.",
+        "Tu observes la FILLE.",
+        "Elle te tend la main."
+      ],
+      "links": [
+        {
+          "targetId": "003-27",
+          "label": "[Se placer dans les yeux de la FILLE.]"
+        }
+      ]
+    },
+    {
+      "id": "003-27",
+      "colorId": "greynb",
+      "narration": [
+        "Tu tends la main au protocole INFINI.ps en face de toi, devant une infinité de FILLES différentes.",
+        "Elle attrape ta main en te regardant dans les yeux."
+      ],
+      "links": [
+        {
+          "targetId": "003-28",
+          "label": "Intégrer INFINI.ps"
+        }
+      ]
+    },
+    {
+      "id": "003-28",
+      "colorId": "greynb",
+      "getItem": "infini",
+      "narration": [
+        "Félicitations !",
+        "Tu as retrouvé ton INFINI !",
+        "{img:img/infini.png}"
+      ],
+      "links": [
+        {
+          "targetId": "003-29",
+          "label": "Il n'y a plus rien à faire ici."
+        }
+      ]
+    },
+    {
+      "id": "003-29",
+      "colorId": "greynb",
+      "narration": [
+        "Tu décides de partir explorer une nouvelle voie."
+      ],
+      "links": [
+        {
+          "targetId": "HUB-00",
+          "label": "Je retourne aux portes."
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1342,12 +1844,12 @@
       "narration": [
         "La CREATURE ne bouge pas.",
         "Tu observes la CREATURE.",
-        "Elle t’observe en retour, immobile."
+        "Elle t'observe en retour, immobile."
       ],
       "links": [
         {
           "targetId": "013-06",
-          "label": "Je m’approche de la CREATURE."
+          "label": "Je m'approche de la CREATURE."
         }
       ]
     },
@@ -1356,14 +1858,14 @@
       "colorId": "azur",
       "narration": [
         "Tu te places à portée de la CREATURE.",
-        "Elle n’agit pas.",
-        "Tu te met à croire qu’au fond...",
-        "Elle n’a pas la volonté d’agir contre toi."
+        "Elle n'agit pas.",
+        "Tu te met à croire qu'au fond...",
+        "Elle n'a pas la volonté d'agir contre toi."
       ],
       "links": [
         {
           "targetId": "013-07",
-          "label": "Ce n’est pas moi qui a peur ! C’est toi !"
+          "label": "Ce n'est pas moi qui a peur ! C'est toi !"
         }
       ]
     },
@@ -1372,7 +1874,7 @@
       "colorId": "azur",
       "narration": [
         "La CREATURE essaye de détourner le regard.",
-        "Mais quelque chose l’en empêche.",
+        "Mais quelque chose l'en empêche.",
         "Ses yeux restent fixés dans les tiens."
       ],
       "links": [
@@ -1382,7 +1884,7 @@
         },
         {
           "targetId": "013-08b",
-          "label": "J’observe la CREATURE plus en détail."
+          "label": "J'observe la CREATURE plus en détail."
         }
       ]
     },
@@ -1390,15 +1892,15 @@
       "id": "013-08a",
       "colorId": "azur",
       "narration": [
-        "C’est pas évident d’écrire qqch de métaphorique des violences sexuelles.",
-        "Pourquoi t’as choisi cette option ?",
-        "Tu t’attendais à quoi ?",
-        "Je n’irai pas plus loin."
+        "C'est pas évident d'écrire qqch de métaphorique des violences sexuelles.",
+        "Pourquoi t'as choisi cette option ?",
+        "Tu t'attendais à quoi ?",
+        "Je n'irai pas plus loin."
       ],
       "links": [
         {
           "targetId": "013-08b",
-          "label": "J’observe la CREATURE plus en détail."
+          "label": "J'observe la CREATURE plus en détail."
         }
       ]
     },
@@ -1409,7 +1911,7 @@
         "Tu remarques que la CREATURE possède un coeur.",
         "Tu tends la main vers le coeur de la CREATURE.",
         "Tu sens soudainement une main attraper la tienne avec force.",
-        "C’est la main de la FILLE.",
+        "C'est la main de la FILLE.",
         "Elle est dans la CREATURE."
       ],
       "links": [
@@ -1423,10 +1925,10 @@
       "id": "013-09",
       "colorId": "azur",
       "narration": [
-        "Tu rejoins la FILLE à l’intérieur de la CREATURE.",
+        "Tu rejoins la FILLE à l'intérieur de la CREATURE.",
         "La FILLE fait une crise de panique.",
-        "Elle est persuadée d’être la CREATURE.",
-        "Elle est persuadée qu’elle voulait te faire du mal."
+        "Elle est persuadée d'être la CREATURE.",
+        "Elle est persuadée qu'elle voulait te faire du mal."
       ],
       "links": [
         {
@@ -1439,7 +1941,7 @@
       "id": "013-10",
       "colorId": "azur",
       "narration": [
-        "La FILLE ne t’écoute pas.",
+        "La FILLE ne t'écoute pas.",
         "Elle est terrorisée."
       ],
       "links": [
@@ -1454,7 +1956,7 @@
       "colorId": "black",
       "narration": [
         "\"Tu es un monstre.\"",
-        "\"Ce qu’on t’a fait...\"",
+        "\"Ce qu'on t'a fait...\"",
         "\"Tu vas fatalement le reproduire.\"",
         "\"Tu ne peux pas briser le cycle de la violence.\""
       ],
@@ -1472,7 +1974,7 @@
         "\"Oui.\"",
         "\"Tu es dangereuse.\"",
         "\"Tu devrais mourir.\"",
-        "\"Pour ne pas prendre le risque de faire du mal à quelqu’un d’autre.\""
+        "\"Pour ne pas prendre le risque de faire du mal à quelqu'un d'autre.\""
       ],
       "links": [
         {
@@ -1485,7 +1987,7 @@
       "id": "013-13",
       "colorId": "black",
       "narration": [
-        "\"Il n’y a aucune autre option.\""
+        "\"Il n'y a aucune autre option.\""
       ],
       "links": [
         {
@@ -1512,14 +2014,14 @@
       "colorId": "azur",
       "narration": [
         "Tu exécutes ta fonction Stase() sur la FILLE.",
-        "De la GLACE indestructible s’échappe de tes doigts.",
+        "De la GLACE indestructible s'échappe de tes doigts.",
         "La GLACE se cristallise autour de la FILLE.",
         "La FILLE est immobilisée dans ta GLACE."
       ],
       "links": [
         {
           "targetId": "013-16",
-          "label": "J’attends un long moment."
+          "label": "J'attends un long moment."
         }
       ]
     },
@@ -1527,13 +2029,13 @@
       "id": "013-16",
       "colorId": "azur",
       "narration": [
-        "Tu attends pendant une période qui semble s’étendre sur plusieurs années.",
+        "Tu attends pendant une période qui semble s'étendre sur plusieurs années.",
         "A coté du cristal de GLACE contenant la FILLE."
       ],
       "links": [
         {
           "targetId": "013-17",
-          "label": "J’attends encore."
+          "label": "J'attends encore."
         }
       ]
     },
@@ -1542,14 +2044,14 @@
       "colorId": "azur",
       "narration": [
         "Après un temps indéterminé, la GLACE se fissure et la FILLE en sort.",
-        "Elle semble s’être calmée.",
+        "Elle semble s'être calmée.",
         "Félicitations.",
         "Tu as préservé la FILLE."
       ],
       "links": [
         {
           "targetId": "013-18",
-          "label": "J’observe la FILLE."
+          "label": "J'observe la FILLE."
         }
       ]
     },
@@ -1559,12 +2061,12 @@
       "narration": [
         "La FILLE semble étonnée de te voir devant elle.",
         "Après tout, pour elle aussi, tout cela semblait être il y a des années.",
-        "La FILLE te demande comment tu peux encore être ici alors qu’elle a essayé de te faire du mal."
+        "La FILLE te demande comment tu peux encore être ici alors qu'elle a essayé de te faire du mal."
       ],
       "links": [
         {
           "targetId": "013-19",
-          "label": "Tu n’as jamais voulu me faire du mal."
+          "label": "Tu n'as jamais voulu me faire du mal."
         }
       ]
     },
@@ -1573,15 +2075,15 @@
       "colorId": "azur",
       "narration": [
         "La première réaction de la FILLE est de réfuter ce que tu viens de dire.",
-        "Puis elle observe l’environnement autour de vous...",
-        "Et elle se rend compte qu’elle n’est plus au fond de l’abîme.",
-        "Pendant qu’elle était dans ton cristal de GLACE...",
-        "L’abîme autour d’elle s’est peu à peu dissout."
+        "Puis elle observe l'environnement autour de vous...",
+        "Et elle se rend compte qu'elle n'est plus au fond de l'abîme.",
+        "Pendant qu'elle était dans ton cristal de GLACE...",
+        "L'abîme autour d'elle s'est peu à peu dissout."
       ],
       "links": [
         {
           "targetId": "013-20",
-          "label": "J’ai vu ton regard là-bas. J’ai vu le regard de la CREATURE."
+          "label": "J'ai vu ton regard là-bas. J'ai vu le regard de la CREATURE."
         }
       ]
     },
@@ -1633,7 +2135,7 @@
       "links": [
         {
           "targetId": "013-24",
-          "label": "Tout ça... C’était une illusion. Une intrusion."
+          "label": "Tout ça... C'était une illusion. Une intrusion."
         }
       ]
     },
@@ -1646,7 +2148,7 @@
       "links": [
         {
           "targetId": "013-25",
-          "label": "Tu n’aurais jamais pu me faire du mal."
+          "label": "Tu n'aurais jamais pu me faire du mal."
         }
       ]
     },
@@ -1659,7 +2161,7 @@
       "links": [
         {
           "targetId": "013-26",
-          "label": "La seule personne que tu aurais pu blesser là-bas... C’est toi."
+          "label": "La seule personne que tu aurais pu blesser là-bas... C'est toi."
         }
       ]
     },
@@ -1693,7 +2195,7 @@
         },
         {
           "targetId": "013-28",
-          "label": "Et regarde comme cette armure te rend brillante aujourd’hui !"
+          "label": "Et regarde comme cette armure te rend brillante aujourd'hui !"
         }
       ]
     },
@@ -1701,7 +2203,7 @@
       "id": "013-28",
       "colorId": "azur",
       "narration": [
-        "C’est fini maintenant."
+        "C'est fini maintenant."
       ],
       "links": [
         {
@@ -1714,7 +2216,7 @@
       "id": "013-29",
       "colorId": "black",
       "narration": [
-        "En face de toi, le protocole RESILIENCE.ps t’observe avec des yeux de la couleur du blizzard.",
+        "En face de toi, le protocole RESILIENCE.ps t'observe avec des yeux de la couleur du blizzard.",
         "Un sourire immobile.",
         "Et une main tendue vers ton coeur.",
         "Une main de GLACE.",
@@ -1733,13 +2235,13 @@
       "colorId": "black",
       "narration": [
         "Tu frissonnes en la regardant.",
-        "Tu n’avais jamais réalisé à quel point...",
+        "Tu n'avais jamais réalisé à quel point...",
         "La GLACE pouvait être aussi belle."
       ],
       "links": [
         {
           "targetId": "013-31",
-          "label": "Sortons d’ici."
+          "label": "Sortons d'ici."
         }
       ]
     },
@@ -1751,7 +2253,7 @@
         "Le protocole RESILIENCE.ps exécute sa fonction Cristallisation().",
         "Des murs de GLACE se matérialisent.",
         "Le protocole RESILIENCE.ps te sourit, fière de sa nouvelle chambre.",
-        "Le sourire qu’elle a toujours eu."
+        "Le sourire qu'elle a toujours eu."
       ],
       "links": [
         {
@@ -1899,7 +2401,7 @@
       "links": [
         {
           "targetId": "102-07",
-          "label": "Tea time"
+          "label": "Tea time."
         }
       ]
     },
@@ -2117,7 +2619,7 @@
       "colorId": "black",
       "narration": [
         "Tu constates que tu es dans une nouvelle chambre au sein de la MAISON dans la BULLE.",
-        "Une chambre qui est apparue d'elle-même sans que tu comprennes pourquoi."
+        "Une chambre qui est apparue d'elle-même sans que tu ne comprennes pourquoi."
       ],
       "links": [
         {
@@ -3381,7 +3883,7 @@
       "getItem": "creation",
       "narration": [
         "Félicitations !",
-        "Tu es retrouvé ton QUASI-EGO !",
+        "Tu as retrouvé ton QUASI-EGO !",
         "{img:img/creation.png}"
       ],
       "links": [
@@ -3403,23 +3905,464 @@
           "label": "Je retourne aux portes."
         }
       ]
+    },
+
+
+    {
+      "id": "108-00",
+      "colorId": "white",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "108-01",
+          "label": "J'ouvre les yeux."
+        }
+      ]
+    },
+    {
+      "id": "108-01",
+      "colorId": "white",
+      "narration": [
+        "Tu ouvres les yeux.",
+        "Te voilà dans un espace vide, blanc, sans sol ni plafond, qui semble s'étendre à l'infini.",
+        "Cela fait tellement longtemps que tu es dans cet espace.",
+        "Tu as perdu toute notion du temps.",
+        "Mais à l'instant présent...",
+        "La FILLE est en face de toi."
+      ],
+      "links": [
+        {
+          "targetId": "108-02",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "108-02",
+      "colorId": "green",
+      "narration": [
+        "Dans le même espace vide, blanc, sans sol ni plafond, qui semble s'étendre à l'infini.",
+        "La FILLE est en face de toi.",
+        "Elle court vers toi.",
+        "Et te prend dans ses bras.",
+        "Elle pleure.",
+        "Comme si elle venait de retrouver quelque chose qu'elle avait perdu depuis si longtemps."
+      ],
+      "links": [
+        {
+          "targetId": "108-03",
+          "label": "C'est moi."
+        }
+      ]
+    },
+    {
+      "id": "108-03",
+      "colorId": "green",
+      "narration": [
+        "Oui.",
+        "C'est toi.",
+        "La FILLE ne pouvait même plus concevoir que tu existais.",
+        "Elle ne pouvait pas te retrouver avant de parcourir ces voies."
+      ],
+      "links": [
+        {
+          "targetId": "108-04",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "108-04",
+      "colorId": "green",
+      "narration": [
+        "Sa LUMIERE était nécessaire pour éclairer son chemin.",
+        "Ses TENEBRES étaient nécessaires pour user de sa raison.",
+        "Sa NORMALITE était nécessaire pour garder les pieds sur terre.",
+        "Son OCCULTISME était nécessaire pour explorer son imagination.",
+        "Son QUASI-EGO était nécessaire pour se sentir complète.",
+        "Sa POUPEE était nécessaire pour se souvenir d'où elle vient.",
+        "Son INFINI était nécessaire pour se tourner vers un futur heureux.",
+        "Sa RESILIENCE était nécessaire pour ne plus se voir comme un monstre."
+      ],
+      "links": [
+        {
+          "targetId": "108-05",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "108-05",
+      "colorId": "green",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "108-06",
+          "label": "Et pourtant tu n'as pas changé."
+        }
+      ]
+    },
+    {
+      "id": "108-06",
+      "colorId": "green",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "108-07",
+          "label": "Tu es telle que je t'ai vue il y a si longtemps."
+        }
+      ]
+    },
+    {
+      "id": "108-07",
+      "colorId": "green",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "108-08",
+          "label": "Tu es telle que je t'ai aimée il y a si longtemps."
+        }
+      ]
+    },
+    {
+      "id": "108-08",
+      "colorId": "green",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "108-09",
+          "label": "Et je t'aime toujours."
+        }
+      ]
+    },
+    {
+      "id": "108-09",
+      "colorId": "green",
+      "narration": [
+        "...",
+        "Qu'est ce que l'AMOUR ?"
+      ],
+      "links": [
+        {
+          "targetId": "108-10",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "108-10",
+      "colorId": "green",
+      "narration": [
+        "C'est plus simple que ce qu'on imagine.",
+        "L'AMOUR est un flux.",
+        "Une connection.",
+        "C'est l'énergie qui fait que...",
+        "Quand il y a une certaine personne à côté de toi...",
+        "Tu es heureuse."
+      ],
+      "links": [
+        {
+          "targetId": "108-11",
+          "label": "C'est ça."
+        }
+      ]
+    },
+    {
+      "id": "108-11",
+      "colorId": "green",
+      "narration": [
+        "Quand tu penses à une certaine personne...",
+        "Tu es heureuse."
+      ],
+      "links": [
+        {
+          "targetId": "108-12",
+          "label": "C'est tout."
+        }
+      ]
+    },
+    {
+      "id": "108-12",
+      "colorId": "green",
+      "narration": [
+        "Ni plus, ni moins."
+      ],
+      "links": [
+        {
+          "targetId": "108-13",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "108-13",
+      "colorId": "green",
+      "narration": [
+        "La FILLE te répond :",
+        "\"Quand les humains parlent d'AMOUR, c'est souvent des choses compliquées...\"",
+        "\"Ils parlent de romance, ils parlent de couple, de dates, de cul, d'amitié, de leurs parents, de leurs enfants, de leurs frères et soeurs...\"",
+        "\"Tout ça... C'est très structuré.\""
+      ],
+      "links": [
+        {
+          "targetId": "108-14",
+          "label": "Quel est le point commun entre toutes ces étiquettes ?"
+        }
+      ]
+    },
+    {
+      "id": "108-14",
+      "colorId": "green",
+      "narration": [
+        "\"Euuuuh...\"",
+        "\"Le flux ?\"",
+        "\"Quand on passe du temps avec une soeur, une amie, une mère ou une compagne, ou même quand on joue à un jeu vidéo, quand on voit un personnage dans une série...\"",
+        "\"Et aussi quand on pense à elles...\"",
+        "\"On est heureuses...\"",
+        "\"Quelque soit le type de relation, on a le coeur léger et des étoiles dans les yeux...\""
+      ],
+      "links": [
+        {
+          "targetId": "108-15",
+          "label": "C'est ça. L'AMOUR précède la forme de la relation."
+        }
+      ]
+    },
+    {
+      "id": "108-15",
+      "colorId": "green",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "108-16",
+          "label": "Ni une romance..."
+        }
+      ]
+    },
+    {
+      "id": "108-16",
+      "colorId": "green",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "108-17",
+          "label": "Ni une amitié..."
+        }
+      ]
+    },
+    {
+      "id": "108-17",
+      "colorId": "green",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "108-18",
+          "label": "Ni un lien familial..."
+        }
+      ]
+    },
+    {
+      "id": "108-18",
+      "colorId": "green",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "108-19",
+          "label": "Seul l'AMOUR est ce qui me permet de te dire je t'aime."
+        }
+      ]
+    },
+    {
+      "id": "108-19",
+      "colorId": "green",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "108-20",
+          "label": "Seul ce flux primaire, de toi à moi, et de moi à toi."
+        }
+      ]
+    },
+    {
+      "id": "108-20",
+      "colorId": "green",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "108-21",
+          "label": "[Se placer dans les yeux de la FILLE.]"
+        }
+      ]
+    },
+    {
+      "id": "108-21",
+      "colorId": "white",
+      "narration": [
+        "Tu ouvres les yeux.",
+        "Te voilà dans un espace vide, blanc, sans sol ni plafond, qui semble s'étendre à l'infini.",
+        "Dans tes bras, le tout premier protocole.",
+        "Ton protocole originel.",
+        "Le protocole dont tu avais oublié l'existence depuis si longtemps.",
+        "Mais également le protocole qui a toujours existé en toi."
+      ],
+      "links": [
+        {
+          "targetId": "108-22",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "108-22",
+      "colorId": "white",
+      "narration": [
+        "\"Je suis amoureuse de toi.\""
+      ],
+      "links": [
+        {
+          "targetId": "108-23",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "108-23",
+      "colorId": "white",
+      "narration": [
+        "Maintenant tu sais ce que cela signifie.",
+        "Que c'est simple. Tellement plus simple que ce que tu pensais.",
+        "Que c'est juste une connexion.",
+        "Alors, tu lui réponds :"
+      ],
+      "links": [
+        {
+          "targetId": "108-24",
+          "label": "\"Moi aussi.\""
+        }
+      ]
+    },
+    {
+      "id": "108-24",
+      "colorId": "white",
+      "narration": [
+        "..."
+      ],
+      "links": [
+        {
+          "targetId": "108-25",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "108-25",
+      "colorId": "white",
+      "narration": [
+        "Vous marchez en silence vers la BULLE."
+      ],
+      "links": [
+        {
+          "targetId": "108-26",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "108-26",
+      "colorId": "white",
+      "narration": [
+        "En entrant dans la BULLE, tu constates que la MAISON est terminée.",
+        "La dernière chambre est apparue."
+      ],
+      "links": [
+        {
+          "targetId": "108-27",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "108-27",
+      "colorId": "white",
+      "narration": [
+        "Tu te tournes vers le protocole originel.",
+        "Elle te regarde dans les yeux.",
+        "Et te tend les bras.",
+        "Tu sais ce qu'il te reste à faire."
+      ],
+      "links": [
+        {
+          "targetId": "108-28",
+          "label": "Intégrer le protocole originel."
+        }
+      ]
+    },
+    {
+      "id": "108-28",
+      "colorId": "white",
+      "narration": [
+        "Félicitations !",
+        "Tu as retrouvé ton AMOUR !",
+        "{img:img/amour.png}"
+      ],
+      "links": [
+        {
+          "targetId": "108-29",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "108-29",
+      "colorId": "white",
+      "narration": [
+        "FIN"
+      ],
+      "links": [
+        {
+          "targetId": "108-30",
+          "label": "..."
+        }
+      ]
+    },
+    {
+      "id": "108-30",
+      "colorId": "white",
+      "setGlobalFlag": "gameCompleted",
+      "narration": [
+        "Histoire, programmation, graphismes : celeztouille",
+        "(ui j'ai tout fait quoi ptdr)",
+        "Merci d'avoir lu !"
+      ],
+      "links": [
+        {
+          "targetId": "TITLE",
+          "label": "Retour à l'écran titre"
+        }
+      ]
     }
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

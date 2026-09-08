@@ -3,6 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const choicesContainer = document.querySelector('.choices');
     const narrationElement = document.querySelector('.narration');
     const prevButton = document.getElementById('btn-prev');
+    const titleScreen = document.getElementById('title-screen');
+    const titleButtonsContainer = document.getElementById('title-buttons');
+    const confirmPopup = document.getElementById('confirm-popup');
+    const btnConfirmYes = document.getElementById('btn-confirm-yes');
+    const btnConfirmNo = document.getElementById('btn-confirm-no');
     
     let storyData = null;
     let currentNode = null;
@@ -10,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let isButtonsDisplayed = false;
 
     let isFirstNode = true; 
-    const firstNode = "013-00";
+    const firstNode = "000-00";
 
     let historyStack = []; 
 
@@ -34,6 +39,50 @@ document.addEventListener('DOMContentLoaded', () => {
         "hub06": false, // Déclenché à 6 objets
         "hub08": false  // Déclenché à 8 objets
     };
+
+    let gameCompleted = false;
+
+    const SAVE_KEY = 'portes_save_v1';
+
+    function saveGame() {
+        const saveData = {
+            obtainedItems: obtainedItems,
+            progressionFlags: progressionFlags,
+            gameCompleted: gameCompleted,
+            savedAt: new Date().toISOString()
+        };
+        
+        localStorage.setItem(SAVE_KEY, JSON.stringify(saveData));
+        showSaveNotification();
+    }
+
+    function loadGame() {
+        const savedJSON = localStorage.getItem(SAVE_KEY);
+        if (savedJSON) {
+            try {
+                const saveData = JSON.parse(savedJSON);
+                
+                // Restaurer les données si elles existent
+                if (saveData.obtainedItems) obtainedItems = saveData.obtainedItems;
+                if (saveData.progressionFlags) progressionFlags = saveData.progressionFlags;
+                if (saveData.gameCompleted !== undefined) gameCompleted = saveData.gameCompleted;
+                return true;
+            } catch (e) {
+                console.error("Erreur lors de la lecture de la sauvegarde:", e);
+                return false;
+            }
+        }
+        return false;
+    }
+
+    function deleteSave() {
+        localStorage.removeItem(SAVE_KEY);
+        obtainedItems = [];
+        progressionFlags = { "hub04_triggered": false, "hub06_triggered": false, "hub08_triggered": false };
+        gameCompleted = false;
+    }
+
+
 
     function addToInventory(itemId) {
         if (obtainedItems.includes(itemId)) return;
@@ -62,16 +111,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     const COLOR_PALETTE = {
-    "white": { bg: "#fff", text: "#000"},
-    "black": { bg: "#000", text: "#fff"},
-    "yellow": { bg: "#fff", text: "#000", blur:"#ff0"},
-    "purple": { bg: "#000", text: "#fff", blur:"rgb(111, 0, 255)"},
-    "grey": { bg: "#888", text: "#000", blur:"#fff"},
-    "azur" : { bg: "#000", text: "#fff", blur:"rgb(98, 218, 240)"},
-    "turquoise" : { bg: "#000", text: "#fff", blur:"rgb(98, 240, 204)"},
-    "pink" : { bg: "#fff", text: "#000", blur:"rgb(215, 132, 248)"},
-    "indigo" : { bg: "#000", text: "#fff", blur:"rgb(0, 53, 197)"},
-    "magenta" :  { bg: "#fff", text: "#000", blur:"rgb(255, 0, 140)"}
+    "white": { bg: "#fff", text: "#000", btn:"#00f"},
+    "black": { bg: "#000", text: "#fff", btn:"#8989fc"},
+    "yellow": { bg: "#fff", text: "#000", btn:"#00f", blur:"#ff0"},
+    "purple": { bg: "#000", text: "#fff", btn:"#8989fc", blur:"rgb(111, 0, 255)"},
+    "grey": { bg: "#888", text: "#000", btn:"#00f", blur:"#fff"},
+    "greynb" : { bg: "#888", text: "#000", btn:"#00f"},
+    "azur" : { bg: "#000", text: "#fff", btn:"#8989fc", blur:"rgb(98, 218, 240)"},
+    "turquoise" : { bg: "#000", text: "#fff", btn:"#8989fc", blur:"rgb(98, 240, 204)"},
+    "pink" : { bg: "#fff", text: "#000", btn:"#00f", blur:"rgb(215, 132, 248)"},
+    "indigo" : { bg: "#000", text: "#fff", btn:"#8989fc", blur:"rgb(0, 53, 197)"},
+    "magenta" :  { bg: "#fff", text: "#000", btn:"#00f", blur:"rgb(255, 0, 140)"}, 
+    "green" :  { bg: "#fff", text: "#000", btn:"#00f", blur:"rgb(22, 139, 18)"}
     };
 
     function getColors(colorId) {
@@ -113,6 +164,42 @@ document.addEventListener('DOMContentLoaded', () => {
         // Petite animation d'apparition
         setTimeout(() => {
             hint.style.opacity = '1';
+        }, 3000);
+    }
+
+
+    function showSaveNotification() {
+        // Réutiliser le style de l'indice de départ, mais avec un ID différent
+        if (document.getElementById('save-notification')) return;
+
+        const notif = document.createElement('div');
+        notif.id = 'save-notification';
+        notif.textContent = "Progression sauvegardée";
+        notif.style.position = 'absolute';
+        notif.style.top = '20px';
+        notif.style.left = '0';
+        notif.style.width = '100%';
+        notif.style.textAlign = 'center';
+        notif.style.fontStyle = 'italic';
+        notif.style.opacity = '0';
+        notif.style.pointerEvents = 'none';
+        notif.style.transition = 'opacity 0.5s';
+        notif.style.fontSize = '0.85em';
+        notif.style.zIndex = '900';
+        
+        sceneContainer.appendChild(notif);
+        
+        // Animation d'apparition
+        setTimeout(() => {
+            notif.style.opacity = '1';
+        }, 100);
+
+        // Disparaître après 2 secondes
+        setTimeout(() => {
+            notif.style.opacity = '0';
+            setTimeout(() => {
+                if(notif.parentNode) notif.parentNode.removeChild(notif);
+            }, 500);
         }, 2000);
     }
 
@@ -149,6 +236,110 @@ document.addEventListener('DOMContentLoaded', () => {
         return "HUB-00";
     }
 
+
+    function initTitleScreen() {
+        const hasSave = loadGame();
+
+        const titleImage = document.querySelector('.title-image');
+        if (titleImage && gameCompleted) {
+            titleImage.src = "img/door108open.png";
+        }
+        
+        titleButtonsContainer.innerHTML = ''; // Vider le conteneur
+
+        if (hasSave) {
+            // CAS 1 : Il y a une sauvegarde
+            
+            // Bouton Continuer
+            const btnContinue = document.createElement('button');
+            btnContinue.textContent = "Continuer";
+            btnContinue.className = 'title-btn continue';
+            btnContinue.addEventListener('click', () => startGame(true)); // true = avec sauvegarde
+            titleButtonsContainer.appendChild(btnContinue);
+
+            // Bouton Nouvelle Partie
+            const btnNew = document.createElement('button');
+            btnNew.textContent = "Nouvelle Partie";
+            btnNew.className = 'title-btn';
+            btnNew.addEventListener('click', () => showConfirmPopup());
+            titleButtonsContainer.appendChild(btnNew);
+            
+            console.log("Sauvegarde détectée. Affichage des options Continuer/Nouvelle Partie.");
+        } else {
+            // CAS 2 : Pas de sauvegarde
+            
+            // Seul bouton Nouvelle Partie (pas de popup)
+            const btnNew = document.createElement('button');
+            btnNew.textContent = "Nouvelle Partie";
+            btnNew.className = 'title-btn';
+            btnNew.addEventListener('click', () => startGame(false)); // false = nouvelle partie
+            titleButtonsContainer.appendChild(btnNew);
+            
+            console.log("Aucune sauvegarde. Affichage du bouton Nouvelle Partie uniquement.");
+        }
+    }
+
+    function showConfirmPopup() {
+        confirmPopup.classList.add('active');
+    }
+
+    function hideConfirmPopup() {
+        confirmPopup.classList.remove('active');
+    }
+
+    function startGame(withSave) {
+        titleScreen.classList.add('hidden');
+        if (storyData) {
+            if (withSave) {
+                refreshInventoryVisuals();
+                loadNode("HUB-00"); 
+            } else {
+                loadNode(firstNode);
+            }
+        }
+        
+    }
+
+    btnConfirmYes.addEventListener('click', () => {
+        deleteSave(); // Efface la sauvegarde disque et mémoire
+        hideConfirmPopup();
+        startGame(false); // Lance une nouvelle partie
+    });
+
+    btnConfirmNo.addEventListener('click', () => {
+        hideConfirmPopup(); // Annule l'action
+    });
+
+    function refreshInventoryVisuals() {
+        // Vider l'inventaire actuel
+        inventoryGrid.innerHTML = '';
+        // Recréer les slots
+        for (let i = 0; i < 8; i++) {
+            const slot = document.createElement('div');
+            slot.className = 'slot';
+            // Retrouver l'ID correspondant à l'index (inverse du map)
+            const itemId = Object.keys(INVENTORY_MAP).find(key => INVENTORY_MAP[key] === i);
+            if (itemId) slot.dataset.id = itemId;
+            inventoryGrid.appendChild(slot);
+        }
+
+        // Remplir avec les objets sauvegardés
+        obtainedItems.forEach(itemId => {
+            const slotIndex = INVENTORY_MAP[itemId];
+            if (slotIndex !== undefined) {
+                const slots = inventoryGrid.querySelectorAll('.slot');
+                const targetSlot = slots[slotIndex];
+                if (targetSlot && !targetSlot.querySelector('img')) {
+                    const img = document.createElement('img');
+                    img.src = `img/${itemId}.png`;
+                    img.className = 'slot-item';
+                    img.alt = itemId;
+                    targetSlot.appendChild(img);
+                }
+            }
+        });
+    }
+
     
     fetch('story.json')
         .then(response => {
@@ -159,7 +350,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .then(data => {
             storyData = data;
-            loadNode(firstNode);
+            initTitleScreen();
         })
         .catch(error => {
             console.error(error);
@@ -186,7 +377,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const colors = getColors(node.colorId);
         document.body.style.backgroundColor = colors.bg;
         document.body.style.color = colors.text;
-        const btnColor = '#7979fd';
+        const btnColor = colors.btn;
         document.documentElement.style.setProperty('--choice-color', btnColor);
 
         narrationElement.innerHTML = '';
@@ -206,10 +397,25 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         if (isFirstNode) {
-            showStartHint();
             isFirstNode = false; 
             historyStack = []; 
             updatePrevButton();
+        }
+
+        if (node.setGlobalFlag) {
+            if (node.setGlobalFlag === "gameCompleted") {
+                gameCompleted = true;
+                saveGame();
+            }
+        }
+
+        if (nodeId === "000-00")
+        {
+            showStartHint();
+        }
+
+        if (nodeId === "HUB-00" && historyStack.length > 0) {
+            saveGame();
         }
 
         if (node.images && node.images.length > 0) {
@@ -256,7 +462,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const colors = getColors(node.colorId);
         document.body.style.backgroundColor = colors.bg;
         document.body.style.color = colors.text;
-        const btnColor = '#7979fd';
+        const btnColor = colors.btn;
         document.documentElement.style.setProperty('--choice-color', btnColor);
 
         if (colors.blur) {
@@ -365,6 +571,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 e.stopPropagation();
 
                 let targetId = link.targetId;
+
+                if (link.targetId === "TITLE") {
+                    restartGame();
+                    return;
+                }
+
                 if (link.targetId === "HUB-00") {
                     targetId = getHubTarget();
                 }
@@ -382,11 +594,50 @@ document.addEventListener('DOMContentLoaded', () => {
         choicesContainer.style.opacity = '1';
     }
 
+    function restartGame() {
+
+        const titleImage = document.querySelector('.title-image');
+        if (titleImage && gameCompleted) {
+            titleImage.src = "img/door108open.png";
+        }
+
+        obtainedItems = [];
+        progressionFlags = { 
+            "hub04_triggered": false,
+            "hub06_triggered": false,
+            "hub08_triggered": false
+        };
+        historyStack = []; 
+        updatePrevButton(); 
+        
+        
+        narrationElement.innerHTML = '';
+        choicesContainer.innerHTML = '';
+        choicesContainer.style.visibility = 'hidden';
+        choicesContainer.style.opacity = '0';
+        
+        const oldCircle = document.querySelector('.image-circle-container');
+        if (oldCircle) oldCircle.remove();
+        
+        const oldBlur = document.getElementById('bg-blur-svg');
+        if (oldBlur) oldBlur.remove();
+
+        
+        const titleScreen = document.getElementById('title-screen');
+        if (titleScreen) {
+            titleScreen.classList.remove('hidden'); 
+        }
+    }
+
 
     function createBackgroundBlur(colorHex, container) {
         // Supprimer un éventuel ancien fond flou
         const oldBlur = document.getElementById('bg-blur-svg');
         if (oldBlur) oldBlur.remove();
+
+        const isMobile = window.innerWidth < 600;
+        const circleRadius = isMobile ? '50%' : '20%';
+
 
         // Création de l'élément SVG
         const svgNS = "http://www.w3.org/2000/svg";
@@ -429,7 +680,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Stop externe (transparent)
         const stop2 = document.createElementNS(svgNS, "stop");
-        stop2.setAttribute('offset', '100%');
+        stop2.setAttribute('offset', isMobile ? '50%' : '100%');
         stop2.setAttribute('stop-color', colorHex);
         stop2.setAttribute('stop-opacity', '0'); // Transparent sur les bords
 
@@ -441,7 +692,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const circle = document.createElementNS(svgNS, "circle");
         circle.setAttribute('cx', '50%');
         circle.setAttribute('cy', '50%');
-        circle.setAttribute('r', '20%'); // Rayon du cercle de couleur
+        circle.setAttribute('r', '20%');
         circle.setAttribute('fill', 'url(#blurGradient)');
         circle.setAttribute('filter', 'url(#gaussianBlur)');
 
@@ -521,9 +772,16 @@ document.addEventListener('DOMContentLoaded', () => {
             imgWrapper.style.transition = 'transform 0.3s, filter 0.3s';
             imgWrapper.style.overflow = 'hidden';
 
+
+            let imgUrl = imgData.url;
+            if (imgUrl === "img/door108.png" && itemCount >= 8)
+            {
+                imgUrl = "img/door108open.png"
+            }
+
             // L'image elle-même
             const img = document.createElement('img');
-            img.src = imgData.url;
+            img.src = imgUrl;
             img.alt = imgData.alt;
             img.style.width = '100%';
             img.style.height = '100%';
